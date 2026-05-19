@@ -28,7 +28,7 @@ What makes it different from regular M365 Copilot:
 - **Work IQ**: org-level context layer that pulls signal from your mailbox, Teams, files, and calendar
 - **Agentic autonomy**: takes multi-step actions, pauses at approval gates for sensitive operations
 - **OS-level reach**: operates across local files, Outlook, Teams, and OneDrive in a single workflow
-- **Custom skills**: user-defined workflows stored in OneDrive at `/Documents/Cowork/Skills/`, no code required
+- **Custom skills**: user-defined workflows as `SKILL.md` files in OneDrive at `/Documents/Cowork/skills/`, up to 50 skills per user, no code required
 
 The configuration leverage point is the last one. **Custom skills plus how you structure your Microsoft Graph determine the quality of every output.** This repo is about that leverage.
 
@@ -40,7 +40,7 @@ The configuration leverage point is the last one. **Custom skills plus how you s
 
 **`_Playbooks/`** - Structured guides for specific project types: Support Scaling, Venture Launch, Community Management, and more. Coming soon.
 
-**`_Resources/`** - Reference materials, research, and links. Coming soon.
+**`_Resources/`** - External references and links: Microsoft Learn docs, Microsoft announcement blogs, community deep-dives. Start here if you are new to Cowork.
 
 **Builder Prompts** - The prompts I use to bootstrap Cowork. The version history is part of the learning journey:
 - `Copilot_Cowork_Operating_System_Builder_Prompt.md` (v1, original)
@@ -61,7 +61,7 @@ The configuration leverage point is the last one. **Custom skills plus how you s
 
 ## Who This Is For
 
-You already have Microsoft 365 Copilot Cowork access through your organization (Agentic Wave 3 rollout). If you do not, talk to your IT department about getting provisioned. This is not a guide to obtaining access.
+You already have Microsoft 365 Copilot Cowork access through your organization. Cowork is currently a Frontier preview, so your org also needs to be enrolled in the [Microsoft Frontier program](https://adoption.microsoft.com/en-us/copilot/frontier-program/). If you do not see Cowork in the Microsoft Admin Center under Agent management, your admin account needs to enroll in Frontier under `Copilot → Settings → Frontier`. This is not a guide to obtaining access; talk to your IT department for that.
 
 This IS a guide to getting the most out of Cowork once you have it. The patterns here assume you can already create skills, run agents, and connect to your Microsoft Graph.
 
@@ -80,13 +80,6 @@ Audience: smart operators and founders configuring Cowork for real work. Technic
 1. Start with the `_Compass/` folder to understand the judgment layer concept
 2. Read through the builder prompts to see how the system is bootstrapped
 3. Adapt the templates and playbooks to your own business context once they land
-
-## References
-
-- [Copilot Cowork: A new way of getting work done](https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/09/copilot-cowork-a-new-way-of-getting-work-done/) (Microsoft 365 Blog, March 2026, original announcement)
-- [Copilot Cowork: From conversation to action across skills, integrations, and devices](https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/05/copilot-cowork-from-conversation-to-action-across-skills-integrations-and-devices/) (Microsoft 365 Blog, May 2026, expansion update)
-- [Copilot Cowork: A new way of getting work done in Microsoft 365](https://futurework.blog/2026/04/19/copilot-cowork-a-new-way-of-getting-work-done-in-microsoft-365/) (Future Work blog, April 2026, deep-dive)
-- [Claude Cowork vs Copilot Cowork](https://datasciencedojo.com/blog/claude-cowork-vs-copilot-cowork/) (Data Science Dojo, comparison with Anthropic's Cowork)
 
 ## Contributing
 

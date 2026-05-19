@@ -1,13 +1,23 @@
 # Resources
 
-Reference materials, research, and links that support the other folders.
+External references, research, and links that support the rest of the repo. The Microsoft Learn docs are the canonical source of truth. Community write-ups add context and perspective.
 
-## What Belongs Here
+## Microsoft Official
 
-- Links to Microsoft documentation on Copilot Cowork and the Graph API
-- Research on agentic AI patterns and best practices
-- Screenshots and examples from live configurations
-- External articles and blog posts worth referencing
+- [Cowork overview (Microsoft Learn)](https://learn.microsoft.com/en-us/microsoft-365/copilot/cowork/) - The canonical product documentation. Covers skills, plugins, custom skill format, limitations, security model, and admin controls. Read first.
+- [Copilot Cowork: A new way of getting work done](https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/09/copilot-cowork-a-new-way-of-getting-work-done/) - Microsoft 365 Blog, March 2026. Original announcement.
+- [Copilot Cowork: From conversation to action across skills, integrations, and devices](https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/05/copilot-cowork-from-conversation-to-action-across-skills-integrations-and-devices/) - Microsoft 365 Blog, May 2026. Expansion update covering plugins and device reach.
+
+## Community Deep-Dives
+
+- [Copilot Cowork: A new way of getting work done in Microsoft 365](https://futurework.blog/2026/04/19/copilot-cowork-a-new-way-of-getting-work-done-in-microsoft-365/) - Future Work blog, April 2026. Strong "what does this actually mean for users" framing, with concrete examples.
+- [Claude Cowork vs Copilot Cowork](https://datasciencedojo.com/blog/claude-cowork-vs-copilot-cowork/) - Data Science Dojo. Useful for understanding what Cowork is by contrast with Anthropic's standalone Cowork.
+
+## Access Requirements
+
+- Microsoft 365 Copilot license
+- Microsoft Frontier preview program enrollment
+- See [Microsoft Frontier program](https://adoption.microsoft.com/en-us/copilot/frontier-program/)
 
 ## Note
 
