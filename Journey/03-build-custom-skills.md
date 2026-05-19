@@ -55,6 +55,8 @@ a summary document organized by project.
 
 That is the entire skill. Cowork interprets the description and instructions natively.
 
+The `description` field is the single most important part of a skill. It is what Cowork reads at session start to decide whether to invoke the skill on your next message. A vague description makes a skill functionally invisible; a sharp description with explicit trigger phrases makes it reliable. See [Skills: Capacity and Loading](../Resources/skills-capacity-and-loading.md) for the full picture (progressive disclosure, the real limits, description-overlap pitfalls).
+
 ## Path A Checklist: Build from Scratch
 
 - [ ] List every task you do more than three times in a month

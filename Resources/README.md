@@ -17,6 +17,7 @@ External references, research, and links that support the rest of the repo. The 
 
 - [**The Cowork Folder in OneDrive**](cowork-folder-structure.md) - Canonical reference for the `OneDrive/Documents/Cowork/` subtree: `copilot-instructions.md`, `skills/`, `sessions/`. Read this before Journey Step 2.
 - [**Guide: copilot-instructions.md**](copilot-instructions-guide.md) - Deep guide on the user-level instruction file Cowork loads at every session: what to put in it, what to avoid, limitations, best practices, and a minimal example.
+- [**Skills: Capacity and Loading**](skills-capacity-and-loading.md) - How many skills you can have, what actually limits you, and why the `description` field matters more than file count. Progressive disclosure: skills do not fully load until invoked.
 - [**Cowork Limitations and Workarounds**](cowork-limitations.md) - What Cowork cannot do (edit files in place, delete, read encrypted files, etc.) and the workaround for each. The edit-in-place constraint shapes how you should think about Cowork.
 
 ## Skill Libraries (for inspiration)

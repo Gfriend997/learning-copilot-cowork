@@ -7,6 +7,8 @@ Skills are different from prompts:
 - **Prompts** (in [`Prompts/`](../Prompts/)) are pasted into a fresh Cowork chat to run an interview or one-time workflow.
 - **Skills** (here) are installed in OneDrive once. Cowork discovers them at the start of every conversation and activates them when your message matches their trigger phrases.
 
+For how Cowork loads skills, why the `description` field matters more than file count, and the real practical limits (which kick in well before the documented 50-skill cap), see [Skills: Capacity and Loading](../Resources/skills-capacity-and-loading.md).
+
 ## How to Install a Skill from This Folder
 
 The install procedure is ~30 seconds per skill:
