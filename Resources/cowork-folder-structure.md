@@ -17,13 +17,14 @@ OneDrive/
 
 ### `copilot-instructions.md`
 
-A user-level instruction file that Cowork loads at the start of every conversation. Think of it as your personal system prompt for Cowork specifically.
+A user-level instruction file that Cowork loads at the start of every conversation. Think of it as your personal system prompt for Cowork specifically. Optional but high-leverage; this is where you tell Cowork your durable behavioral rules.
 
-- Optional. Cowork works without it.
-- High leverage. This is where you tell Cowork things like "always consult my `Compass/` folder before deciding," or "for any external email, default to a draft, never send."
-- Separate from the Microsoft 365 Copilot Custom Instructions field set up in [Journey Step 1](../Journey/01-personalize-copilot.md). Custom Instructions are platform-wide (apply to all of M365 Copilot). `copilot-instructions.md` is Cowork-specific and lives with your other Cowork files.
+For the full guide (what to put, what to avoid, limitations, best practices, a minimal example), see [Guide: copilot-instructions.md](copilot-instructions-guide.md).
 
-- Note: this file is observed user behavior. Microsoft Learn does not currently document it explicitly, so naming or loading behavior may change. Treat it as a working pattern, not a guaranteed API.
+Quick facts:
+- Lives at `OneDrive/Documents/Cowork/copilot-instructions.md`
+- Separate from the M365 Copilot Custom Instructions field (which is platform-wide, set in [Journey Step 1](../Journey/01-personalize-copilot.md))
+- Observed user behavior, not officially documented by Microsoft; treat as a working pattern, not a guaranteed API
 
 ### `skills/`
 
