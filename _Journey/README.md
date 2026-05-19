@@ -29,5 +29,6 @@ Build the foundation before adding the leverage layers. Otherwise the leverage c
 The journey references prompts in [`_Prompts/`](../_Prompts/):
 
 - Step 1: [`Copilot_Personalization_Interview.md`](../_Prompts/Copilot_Personalization_Interview.md)
+- Step 2: [`OneDrive_Cleanup_Prompt.md`](../_Prompts/OneDrive_Cleanup_Prompt.md)
 - Step 4: [`CoWork_Compass_Builder_Prompt_v3.md`](../_Prompts/CoWork_Compass_Builder_Prompt_v3.md)
-- Steps 2 and 3: Coming soon. Use the interim manual checklists in each step page for now.
+- Step 3: Coming soon. Use the interim manual checklist in the step page for now.
