@@ -52,7 +52,7 @@ This is the agentic shift. Once you trust it, you stop sitting and waiting for A
 
 **`Resources/`** - External references and links: Microsoft Learn docs, Microsoft announcement blogs, community deep-dives. Start here if you are new to Cowork.
 
-**`Prompts/`** - Reusable prompt files referenced by the journey: the Copilot Personalization Interview, the OneDrive Cleanup Prompt, and the three versions of the Compass Builder. Paste these into a fresh Cowork chat to run.
+**`Prompts/`** - Reusable prompt files referenced by the journey: the Copilot Personalization Interview, the OneDrive Cleanup Prompt, and the Compass Builder. Paste these into a fresh Cowork chat to run.
 
 **`Skills/`** - Installable Cowork skills. Drop a `SKILL.md` into your `OneDrive/Documents/Cowork/skills/<name>/` folder, refresh Cowork, and the skill activates on its trigger phrases. Includes a GitHub-skill importer that converts Claude Code skills into Cowork skills.
 

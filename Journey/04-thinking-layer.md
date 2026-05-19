@@ -52,16 +52,6 @@ Most people discover during the second pass that their stated preferences and re
 - **Not referencing Compass from Custom Instructions.** Compass files in OneDrive are inert unless Cowork knows to consult them. Step 1's Custom Instructions need to point at the Compass folder explicitly.
 - **Letting Compass drift.** When your priorities shift (new role, new business, new audience), re-run the Compass Builder. Stale Compass is worse than no Compass; it produces confident wrong answers.
 
-## The Version History in `Prompts/`
-
-The repo keeps three versions of the Compass Builder:
-
-- `CoWork_Compass_Builder_Prompt_v3.md` (current, recommended)
-- `CoWork_OS_Builder_Prompt_v2.md` (predecessor, when this was called "OS")
-- `Copilot_Cowork_Operating_System_Builder_Prompt.md` (first version, conceptual origin)
-
-Use v3. The older versions are kept so you can see how the approach evolved. If you read them in reverse order (v1 → v2 → v3), you see the questions that mattered most and the ones that were noise.
-
 ## What You Have After This Step
 
 - A `OneDrive/Documents/Cowork/Compass/` folder populated with your decision principles

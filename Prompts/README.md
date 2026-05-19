@@ -12,15 +12,11 @@ Reusable prompt files for bootstrapping and tuning Microsoft Copilot Cowork. Eac
 
 - **`OneDrive_Cleanup_Prompt.md`** - Reorganizes your OneDrive around your current role. Safe by design (never deletes, archive-only). Plan-then-execute flow with a full Decision Log and recap. Lets you scope the sweep: entire OneDrive, one folder, or a specific set. Multiple-choice questions only. Used in [Journey Step 2](../Journey/02-clean-onedrive.md).
 
-### Compass Builders (Versioned)
+### Compass Builder
 
-The Compass folder is Cowork's judgment layer. These prompts interview you and generate the `Compass/` files. Three versions are kept so the evolution of the approach is visible.
+The Compass is Cowork's judgment layer. This prompt interviews you and generates the Compass files in your own OneDrive.
 
-- **`CoWork_Compass_Builder_Prompt_v3.md`** - Current. Used in [Journey Step 4](../Journey/04-thinking-layer.md).
-- **`CoWork_OS_Builder_Prompt_v2.md`** - Predecessor. Branded "OS" before the rename to Compass.
-- **`Copilot_Cowork_Operating_System_Builder_Prompt.md`** - First version. Conceptual origin.
-
-For why the v3 is current and what changed, see the prompts themselves; the version history is part of the learning journey.
+- **`CoWork_Compass_Builder_Prompt_v3.md`** - Used in [Journey Step 4](../Journey/04-thinking-layer.md).
 
 ## How to Use
 
