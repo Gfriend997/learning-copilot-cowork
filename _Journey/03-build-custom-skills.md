@@ -1,10 +1,10 @@
-# Step 4: Build Your First Custom Skills
+# Step 3: Build Your First Custom Skills
 
 **Prompt:** Coming soon. SKILL.md template + "what to skill" decision rule.
 
 ## Why This Order
 
-By now your Copilot profile is set (Step 1), your OneDrive is clean (Step 2), and your inbox represents reality (Step 3). Cowork has good context. Now teach it your repeatable patterns.
+By now your Copilot profile is set (Step 1) and your OneDrive is clean (Step 2). Cowork has good context. Now teach it your repeatable patterns.
 
 Building skills before context is clean produces brittle skills that compensate for messy inputs. Building skills after context is clean lets each skill draw from real signal.
 
@@ -86,4 +86,4 @@ That is the entire skill. Cowork interprets the description and instructions nat
 - Reliable output from the first skill across multiple runs
 - A clear sense of which other tasks deserve to be skills next
 
-When that is true, move to [Step 5: Build the Thinking Layer](05-thinking-layer.md).
+When that is true, move to [Step 4: Build the Thinking Layer](04-thinking-layer.md).

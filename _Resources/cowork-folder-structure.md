@@ -22,6 +22,7 @@ A user-level instruction file that Cowork loads at the start of every conversati
 - Optional. Cowork works without it.
 - High leverage. This is where you tell Cowork things like "always consult my `_Compass/` folder before deciding," or "for any external email, default to a draft, never send."
 - Separate from the Microsoft 365 Copilot Custom Instructions field set up in [Journey Step 1](../_Journey/01-personalize-copilot.md). Custom Instructions are platform-wide (apply to all of M365 Copilot). `copilot-instructions.md` is Cowork-specific and lives with your other Cowork files.
+
 - Note: this file is observed user behavior. Microsoft Learn does not currently document it explicitly, so naming or loading behavior may change. Treat it as a working pattern, not a guaranteed API.
 
 ### `skills/`
@@ -40,7 +41,7 @@ Cowork/
         └── SKILL.md
 ```
 
-Cowork discovers everything inside `skills/` at the start of each conversation. See [Journey Step 4](../_Journey/04-build-custom-skills.md) for how to build skills, and the [Microsoft Learn page](https://learn.microsoft.com/microsoft-365/copilot/cowork/use-cowork#create-custom-skills) for the official spec.
+Cowork discovers everything inside `skills/` at the start of each conversation. See [Journey Step 3](../_Journey/03-build-custom-skills.md) for how to build skills, and the [Microsoft Learn page](https://learn.microsoft.com/microsoft-365/copilot/cowork/use-cowork#create-custom-skills) for the official spec.
 
 **Limits:**
 - 50 custom skills total per user
@@ -61,8 +62,8 @@ Cowork saves output files from every chat conversation here. This folder is Cowo
 ## Practical Implications
 
 - **When cleaning OneDrive in [Journey Step 2](../_Journey/02-clean-onedrive.md):** leave the entire `Cowork/` subtree alone. The cleanup applies to the rest of OneDrive, not Cowork's managed area.
-- **When building skills in [Journey Step 4](../_Journey/04-build-custom-skills.md):** create new subfolders inside `skills/`, never modify the parent layout.
-- **When building the thinking layer in [Journey Step 5](../_Journey/05-thinking-layer.md):** decide whether your Compass files live inside `Cowork/` (as a sibling folder to `skills/`) or elsewhere in OneDrive. Either works; what matters is that `copilot-instructions.md` references the location explicitly.
+- **When building skills in [Journey Step 3](../_Journey/03-build-custom-skills.md):** create new subfolders inside `skills/`, never modify the parent layout.
+- **When building the thinking layer in [Journey Step 4](../_Journey/04-thinking-layer.md):** decide whether your Compass files live inside `Cowork/` (as a sibling folder to `skills/`) or elsewhere in OneDrive. Either works; what matters is that `copilot-instructions.md` references the location explicitly.
 
 ## Cowork Cannot Delete Files
 

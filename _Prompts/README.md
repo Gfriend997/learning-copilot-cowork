@@ -12,7 +12,7 @@ Reusable prompt files for bootstrapping and tuning Microsoft Copilot Cowork. Eac
 
 The Compass folder is Cowork's judgment layer. These prompts interview you and generate the `_Compass/` files. Three versions are kept so the evolution of the approach is visible.
 
-- **`CoWork_Compass_Builder_Prompt_v3.md`** - Current. Used in [Journey Step 5](../_Journey/05-thinking-layer.md).
+- **`CoWork_Compass_Builder_Prompt_v3.md`** - Current. Used in [Journey Step 4](../_Journey/04-thinking-layer.md).
 - **`CoWork_OS_Builder_Prompt_v2.md`** - Predecessor. Branded "OS" before the rename to Compass.
 - **`Copilot_Cowork_Operating_System_Builder_Prompt.md`** - First version. Conceptual origin.
 

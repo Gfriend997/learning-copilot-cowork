@@ -1,10 +1,10 @@
-# Step 5: Build the Thinking Layer
+# Step 4: Build the Thinking Layer
 
 **Prompt:** [`_Prompts/CoWork_Compass_Builder_Prompt_v3.md`](../_Prompts/CoWork_Compass_Builder_Prompt_v3.md)
 
 ## Why Last
 
-Steps 1 through 4 cover what Cowork knows (Personalization, OneDrive, Email) and what Cowork does (Custom Skills). Step 5 covers how Cowork thinks.
+Steps 1 through 3 cover what Cowork knows (Personalization, OneDrive) and what Cowork does (Custom Skills). Step 4 covers how Cowork thinks.
 
 The `_Compass/` folder holds your decision heuristics, tradeoff rules, escalation criteria, and working style. This is the layer that turns a competent agent into a coworker who can argue with you and be right.
 
@@ -69,9 +69,9 @@ Use v3. The older versions are kept so you can see how the approach evolved. If 
 
 ## Beyond the Journey
 
-Once these five steps are in place, you have a working Cowork system. Maintenance from here is incremental:
+Once these four steps are in place, you have a working Cowork system. Maintenance from here is incremental:
 
 - Re-run the Personalization Interview quarterly ([Step 1](01-personalize-copilot.md))
-- Add custom skills as new repeatable patterns emerge ([Step 4](04-build-custom-skills.md))
+- Add custom skills as new repeatable patterns emerge ([Step 3](03-build-custom-skills.md))
 - Update Compass files when your priorities shift (this step, refinement pass)
 - Watch [`_Resources/`](../_Resources/) for new Microsoft Learn updates

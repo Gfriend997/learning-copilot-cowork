@@ -21,7 +21,7 @@ Use Cowork itself to clean OneDrive. It can browse your files, rename based on c
 - [ ] Ask Cowork to propose a folder structure that fits your work, not Microsoft's defaults. Iterate until it makes sense.
 - [ ] Approve the structure, then have Cowork move files in batches. Cowork pauses for approval per batch (sensitive action).
 - [ ] Have Cowork rename any files it flags as unclear ("Untitled", "Copy of", "Final_v2_real_FINAL")
-- [ ] Create a `/Documents/Cowork/skills/` folder now, even if empty. [Step 4](04-build-custom-skills.md) needs it.
+- [ ] Create a `/Documents/Cowork/skills/` folder now, even if empty. [Step 3](03-build-custom-skills.md) needs it.
 - [ ] Spot-check the result. Open three random folders. If they make sense at a glance, you are done. If not, iterate.
 
 ## What Belongs Where
@@ -34,7 +34,7 @@ A starting structure that works for most operators:
     copilot-instructions.md
     skills/
     sessions/
-    Compass/                   -- Thinking-layer files (Step 5), optional location
+    Compass/                   -- Thinking-layer files (Step 4), optional location
   Projects/                    -- Active project work, one folder per project
   Reference/                   -- Long-lived material: contracts, templates, research
   Archive/                     -- Done work you want to keep findable but out of the way
@@ -52,7 +52,7 @@ Adapt the non-Cowork folders as needed. The shape that works is the one you will
 
 - A OneDrive root structure you can navigate in seconds
 - File names that describe what is inside them
-- A `/Documents/Cowork/skills/` folder ready for Step 4
+- A `/Documents/Cowork/skills/` folder ready for Step 3
 - Cowork can now find relevant context quickly when you ask it anything
 
-When that is true, move to [Step 3: Reorganize Your Email](03-reorganize-email.md).
+When that is true, move to [Step 3: Build Your First Custom Skills](03-build-custom-skills.md).
