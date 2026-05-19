@@ -162,4 +162,4 @@ This is a living project. If you are building on Copilot Cowork and have pattern
 
 ## Author
 
-Gary Wong ([@Gfriend997](https://github.com/Gfriend997))
+[@Gfriend997](https://github.com/Gfriend997)
