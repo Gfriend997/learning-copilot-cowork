@@ -18,6 +18,15 @@ External references, research, and links that support the rest of the repo. The 
 - [**The Cowork Folder in OneDrive**](cowork-folder-structure.md) - Canonical reference for the `/Documents/Cowork/` subtree: `copilot-instructions.md`, `skills/`, `sessions/`. Read this before Journey Step 2.
 - [**Cowork Limitations and Workarounds**](cowork-limitations.md) - What Cowork cannot do (edit files in place, delete, read encrypted files, etc.) and the workaround for each. The edit-in-place constraint shapes how you should think about Cowork.
 
+## Skill Libraries (for inspiration)
+
+If you do not know what custom Cowork skill to build first, browse these public libraries of Claude Code skills. Combined with the [`skill-05-import-github-skill`](../_Skills/skill-05-import-github-skill.md) importer (in [`_Skills/`](../_Skills/)), you can convert any of these into a Cowork-installable skill, reframed for your role.
+
+- [obra/superpowers](https://github.com/obra/superpowers) - Large curated Claude Code skill library. 18.8k stars at time of writing. Strong coverage of engineering, research, and meta-workflows.
+- [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills) - "Awesome list" style index of Claude Code skills across domains. 12.4k stars at time of writing. Useful for discovering domain-specific skills.
+
+These are Claude Code skills, not Cowork skills natively. The importer translates the format and reframes for your role.
+
 ## Access Requirements
 
 - Microsoft 365 Copilot license

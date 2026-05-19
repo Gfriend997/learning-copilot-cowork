@@ -44,7 +44,9 @@ The configuration leverage point is the last one. **Custom skills plus how you s
 
 **`_Resources/`** - External references and links: Microsoft Learn docs, Microsoft announcement blogs, community deep-dives. Start here if you are new to Cowork.
 
-**`_Prompts/`** - Reusable prompt files referenced by the journey: the Copilot Personalization Interview, and the three versions of the Compass Builder. Upload these into a fresh Cowork chat to run the interviews.
+**`_Prompts/`** - Reusable prompt files referenced by the journey: the Copilot Personalization Interview, the OneDrive Cleanup Prompt, and the three versions of the Compass Builder. Paste these into a fresh Cowork chat to run.
+
+**`_Skills/`** - Installable Cowork skills. Drop a `SKILL.md` into your OneDrive `/Documents/Cowork/skills/<name>/` folder, refresh Cowork, and the skill activates on its trigger phrases. Includes a GitHub-skill importer that converts Claude Code skills into Cowork skills.
 
 **`_OperatingSystem_Guide.docx`** - Original guide explaining the Operating System concept that evolved into `_Compass/`.
 

@@ -1,6 +1,11 @@
 # Step 3: Build Your First Custom Skills
 
-**Prompt:** Coming soon. SKILL.md template + "what to skill" decision rule.
+**Two paths:** build from scratch, OR import from GitHub.
+
+- **From scratch:** write a `SKILL.md` for a repeatable pattern you already have in your head. Use the checklist below.
+- **From GitHub (faster):** install the [`skill-05-import-github-skill`](../_Skills/skill-05-import-github-skill.md) importer once, then convert any Claude Code skill from public libraries like [obra/superpowers](https://github.com/obra/superpowers) (18.8k stars) or [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills) (12.4k stars). The importer reframes the source skill for your role automatically.
+
+If you do not yet have a clear list of repeatable patterns, start with the GitHub path. The libraries contain hundreds of battle-tested skills; pick what fits and let the importer adapt them.
 
 ## Why This Order
 
@@ -50,7 +55,7 @@ a summary document organized by project.
 
 That is the entire skill. Cowork interprets the description and instructions natively.
 
-## Checklist
+## Path A Checklist: Build from Scratch
 
 - [ ] List every task you do more than three times in a month
 - [ ] For each, score against the "What to Skill" criteria above. Keep the ones that score high.
@@ -63,6 +68,19 @@ That is the entire skill. Cowork interprets the description and instructions nat
 - [ ] Tune the SKILL.md based on what you noticed. Re-run.
 - [ ] Once the skill produces reliable output three runs in a row, move to the next candidate
 - [ ] Repeat. Cap at 50 custom skills per user (Microsoft's hard limit).
+
+## Path B Checklist: Import from GitHub
+
+- [ ] Install the importer once: copy [`skill-05-import-github-skill.md`](../_Skills/skill-05-import-github-skill.md) into `/Documents/Cowork/skills/skill-05-import-github-skill/SKILL.md` (or any folder name; the file must be named `SKILL.md`)
+- [ ] Refresh Cowork. Type `/` in the prompt and verify the importer appears in the skill list.
+- [ ] Browse [obra/superpowers](https://github.com/obra/superpowers) or [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills). Pick a skill that maps to something you actually do.
+- [ ] In Cowork, paste the GitHub URL to the skill and say: *"Import this skill and adapt it for my role."*
+- [ ] Answer the reframe questions: domain, naming preference, OneDrive mirror, team-shareable vs. personal.
+- [ ] Review the draft Cowork generates. Adjust before saving.
+- [ ] Cowork stages the new `SKILL.md` in `/Documents/Cowork/sessions/`. Move (or copy) it into `/Documents/Cowork/skills/<the-skill-name>/SKILL.md`.
+- [ ] Refresh Cowork. Type `/` and verify the new skill loaded.
+- [ ] Trigger one of its example phrases to confirm it works.
+- [ ] Repeat for the next skill from the library.
 
 ## Limits to Know
 
@@ -78,12 +96,13 @@ That is the entire skill. Cowork interprets the description and instructions nat
 - **Too rigid.** A SKILL.md that enumerates every edge case becomes brittle. Cover the 80% case clearly; let Cowork handle the 20% with its built-in reasoning.
 - **No verification step.** Add a final instruction like "Before delivering, check that all sections have content and no placeholder text remains."
 - **Building too many at once.** Five half-tuned skills hurt more than two tuned skills. Quality over quantity.
+- **Importing verbatim from another domain.** A Claude Code skill written for engineers will feel awkward if you are in marketing. Let the importer reframe it. See the importer's "Adapt before installing" principle.
 
 ## What You Have After This Step
 
-- At least one working custom skill in `/Documents/Cowork/skills/`
+- The importer skill installed (Path B) OR at least one hand-built skill working (Path A)
 - A pattern for evaluating future skill candidates
-- Reliable output from the first skill across multiple runs
+- Reliable output from your first skill across multiple runs
 - A clear sense of which other tasks deserve to be skills next
 
 When that is true, move to [Step 4: Build the Thinking Layer](04-thinking-layer.md).
