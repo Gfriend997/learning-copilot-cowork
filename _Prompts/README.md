@@ -6,13 +6,13 @@ Reusable prompt files for bootstrapping and tuning Microsoft Copilot Cowork. Eac
 
 ### Personalization
 
-- **`Copilot_Personalization_Interview.md`** - Builds your Microsoft 365 Copilot custom instructions through an adaptive interview. Auto-loads your work profile, tailors questions to your role (engineer / sales / exec / etc.), and outputs a copy-paste-ready custom instruction within Copilot's 8,000 character ceiling. Used in [JOURNEY.md Step 1](../JOURNEY.md).
+- **`Copilot_Personalization_Interview.md`** - Builds your Microsoft 365 Copilot custom instructions through an adaptive interview. Auto-loads your work profile, tailors questions to your role (engineer / sales / exec / etc.), and outputs a copy-paste-ready custom instruction within Copilot's 8,000 character ceiling. Used in [Journey Step 1](../_Journey/01-personalize-copilot.md).
 
 ### Compass Builders (Versioned)
 
 The Compass folder is Cowork's judgment layer. These prompts interview you and generate the `_Compass/` files. Three versions are kept so the evolution of the approach is visible.
 
-- **`CoWork_Compass_Builder_Prompt_v3.md`** - Current. Used in [JOURNEY.md Step 5](../JOURNEY.md).
+- **`CoWork_Compass_Builder_Prompt_v3.md`** - Current. Used in [Journey Step 5](../_Journey/05-thinking-layer.md).
 - **`CoWork_OS_Builder_Prompt_v2.md`** - Predecessor. Branded "OS" before the rename to Compass.
 - **`Copilot_Cowork_Operating_System_Builder_Prompt.md`** - First version. Conceptual origin.
 

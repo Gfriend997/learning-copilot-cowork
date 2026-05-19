@@ -34,7 +34,7 @@ The configuration leverage point is the last one. **Custom skills plus how you s
 
 ## What You Will Find Here
 
-**[`JOURNEY.md`](JOURNEY.md)** - The recommended five-step setup path: personalize Copilot, clean OneDrive, reorganize email, build custom skills, build the thinking layer. Start here.
+**[`_Journey/`](_Journey/)** - The recommended five-step setup path, one page per step: personalize Copilot, clean OneDrive, reorganize email, build custom skills, build the thinking layer. Start here.
 
 **`_Compass/`** - The judgment layer. Decision principles, working style, product heuristics, and escalation rules. The pattern that turns a generic AI assistant into one that thinks like you do.
 
@@ -44,7 +44,7 @@ The configuration leverage point is the last one. **Custom skills plus how you s
 
 **`_Resources/`** - External references and links: Microsoft Learn docs, Microsoft announcement blogs, community deep-dives. Start here if you are new to Cowork.
 
-**`_Prompts/`** - Reusable prompt files referenced by `JOURNEY.md`: the Copilot Personalization Interview, and the three versions of the Compass Builder. Upload these into a fresh Cowork chat to run the interviews.
+**`_Prompts/`** - Reusable prompt files referenced by the journey: the Copilot Personalization Interview, and the three versions of the Compass Builder. Upload these into a fresh Cowork chat to run the interviews.
 
 **`_OperatingSystem_Guide.docx`** - Original guide explaining the Operating System concept that evolved into `_Compass/`.
 
@@ -68,9 +68,9 @@ Audience: smart operators and founders configuring Cowork for real work. Technic
 
 ## Getting Started
 
-1. Read [`JOURNEY.md`](JOURNEY.md) for the recommended five-step setup path
+1. Open [`_Journey/`](_Journey/) and read the index, then work through the five step pages in order
 2. Browse `_Resources/` to ground yourself in what Cowork is (Microsoft Learn + community write-ups)
-3. Pull the relevant prompt from `_Prompts/` when JOURNEY tells you to (Step 1 and Step 5 have specific prompts ready)
+3. Pull the relevant prompt from `_Prompts/` when a journey step tells you to (Step 1 and Step 5 have prompts ready)
 4. Open the `_Compass/` folder to see the judgment-layer concept in action
 5. Adapt the templates and playbooks to your own business context as they land
 
