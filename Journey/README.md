@@ -6,7 +6,7 @@ Each step is a separate page. Work top to bottom. Skipping ahead causes rework.
 
 **Before you start:** Read these two foundational references. They shape every step.
 
-- [The Cowork Folder in OneDrive](../Resources/cowork-folder-structure.md) - the `/Documents/Cowork/` layout (`copilot-instructions.md`, `skills/`, `sessions/`)
+- [The Cowork Folder in OneDrive](../Resources/cowork-folder-structure.md) - the `OneDrive/Documents/Cowork/` layout (`copilot-instructions.md`, `skills/`, `sessions/`)
 - [Cowork Limitations and Workarounds](../Resources/cowork-limitations.md) - what Cowork cannot do (edit files in place, delete, etc.) and how to work around each
 
 ## The Steps

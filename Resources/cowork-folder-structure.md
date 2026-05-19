@@ -1,6 +1,6 @@
 # The Cowork Folder in OneDrive
 
-Microsoft Copilot Cowork lives in your OneDrive at `/Documents/Cowork/`. Everything Cowork manages on your behalf is rooted there. Understanding the layout is foundational; the journey steps reference this structure.
+Microsoft Copilot Cowork lives at `OneDrive/Documents/Cowork/`. Everything Cowork manages on your behalf is rooted there. Understanding the layout is foundational; the journey steps reference this structure.
 
 ## The Top-Level Layout
 

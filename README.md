@@ -27,10 +27,20 @@ What makes it different from regular M365 Copilot:
 - **Runs inside your tenant** with your identity and permissions, not as an external suggestion engine
 - **Work IQ**: org-level context layer that pulls signal from your mailbox, Teams, files, and calendar
 - **Agentic autonomy**: takes multi-step actions, pauses at approval gates for sensitive operations
-- **OS-level reach**: operates across local files, Outlook, Teams, and OneDrive in a single workflow
-- **Custom skills**: user-defined workflows as `SKILL.md` files in OneDrive at `/Documents/Cowork/skills/`, up to 50 skills per user, no code required
+- **Cross-app orchestration**: a single workflow can span Outlook, Teams, OneDrive, and SharePoint
+- **Custom skills**: user-defined workflows as `SKILL.md` files at `OneDrive/Documents/Cowork/skills/`, up to 50 skills per user, no code required
 
 The configuration leverage point is the last one. **Custom skills plus how you structure your Microsoft Graph determine the quality of every output.** This repo is about that leverage.
+
+## Async and Cloud-Native
+
+Two facts that change how you should think about Cowork.
+
+**Cowork only works with files in OneDrive and SharePoint.** Files on your local hard drive are invisible. To work with a local file, upload it to a Cowork chat. The output still lands in OneDrive (specifically `OneDrive/Documents/Cowork/sessions/`), never back on your local drive. If a workflow is not anchored on OneDrive, it is not a Cowork workflow.
+
+**Tasks run in the cloud, not on your machine.** Kick off a multi-step task, close your laptop, drive home. Cowork keeps executing on Microsoft's infrastructure. When you come back online, pick up where it paused, typically at an approval gate. This is what separates Cowork from a desktop assistant: the work continues without you. Schedule a daily briefing for 7 AM and it generates before you wake up. Start a deep-research task before a flight and the report is waiting when you land.
+
+This is the agentic shift. Once you trust it, you stop sitting and waiting for AI to finish.
 
 ## What You Will Find Here
 
@@ -46,7 +56,7 @@ The configuration leverage point is the last one. **Custom skills plus how you s
 
 **`Prompts/`** - Reusable prompt files referenced by the journey: the Copilot Personalization Interview, the OneDrive Cleanup Prompt, and the three versions of the Compass Builder. Paste these into a fresh Cowork chat to run.
 
-**`Skills/`** - Installable Cowork skills. Drop a `SKILL.md` into your OneDrive `/Documents/Cowork/skills/<name>/` folder, refresh Cowork, and the skill activates on its trigger phrases. Includes a GitHub-skill importer that converts Claude Code skills into Cowork skills.
+**`Skills/`** - Installable Cowork skills. Drop a `SKILL.md` into your `OneDrive/Documents/Cowork/skills/<name>/` folder, refresh Cowork, and the skill activates on its trigger phrases. Includes a GitHub-skill importer that converts Claude Code skills into Cowork skills.
 
 **`_OperatingSystem_Guide.docx`** - Original guide explaining the Operating System concept that evolved into `Compass/`.
 
@@ -73,13 +83,13 @@ What we have learned about how Cowork actually behaves, beyond the official docs
 ### Skills and Sessions
 
 - **50 custom skills max.** Microsoft's hard limit. Choose them deliberately. See [`Resources/cowork-limitations.md`](Resources/cowork-limitations.md) for all limits.
-- **Discovery happens at session start.** Cowork scans `/Documents/Cowork/skills/` when you open a new chat. Adding a SKILL.md mid-conversation does NOT load it. Open a fresh chat to pick up new skills.
+- **Discovery happens at session start.** Cowork scans `OneDrive/Documents/Cowork/skills/` when you open a new chat. Adding a SKILL.md mid-conversation does NOT load it. Open a fresh chat to pick up new skills.
 - **`SKILL.md` is case-sensitive.** All caps. `skill.md` will not be discovered.
-- **The sessions-to-skills hop.** When Cowork generates a SKILL.md (for example, via the GitHub Skill Importer), the file lands in `sessions/`, not `skills/`. Move it manually to `/Documents/Cowork/skills/<your-name>/SKILL.md` and refresh Cowork.
+- **The sessions-to-skills hop.** When Cowork generates a SKILL.md (for example, via the GitHub Skill Importer), the file lands in `sessions/`, not `skills/`. Move it manually to `OneDrive/Documents/Cowork/skills/<your-name>/SKILL.md` and refresh Cowork.
 
 ### `copilot-instructions.md`
 
-- **Loaded first at every conversation.** A user-level instruction file at `/Documents/Cowork/copilot-instructions.md` is loaded before any skill activates. This is observed behavior, not officially documented; treat it as a working pattern rather than a guaranteed API.
+- **Loaded first at every conversation.** A user-level instruction file at `OneDrive/Documents/Cowork/copilot-instructions.md` is loaded before any skill activates. This is observed behavior, not officially documented; treat it as a working pattern rather than a guaranteed API.
 - **High-leverage location.** Reference your `_Compass/` folder here so Cowork consults it for judgment calls. Tell Cowork your defaults: "always draft, never send" or "always show options before recommendations".
 - **Separate from M365 Copilot Custom Instructions.** The 8,000-character field in M365 Copilot Settings is platform-wide. `copilot-instructions.md` is Cowork-specific. Use both; they complement.
 

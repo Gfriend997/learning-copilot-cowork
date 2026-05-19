@@ -39,7 +39,7 @@ Examples of bad first skills:
 
 ## SKILL.md Structure
 
-Each custom skill lives in its own subfolder at `/Documents/Cowork/skills/<your-skill-name>/`. The folder must contain a file named `SKILL.md` (all caps). YAML frontmatter is required. For the full Cowork folder layout (including `copilot-instructions.md` and `sessions/`), see [The Cowork Folder in OneDrive](../Resources/cowork-folder-structure.md).
+Each custom skill lives in its own subfolder at `OneDrive/Documents/Cowork/skills/<your-skill-name>/`. The folder must contain a file named `SKILL.md` (all caps). YAML frontmatter is required. For the full Cowork folder layout (including `copilot-instructions.md` and `sessions/`), see [The Cowork Folder in OneDrive](../Resources/cowork-folder-structure.md).
 
 Minimum viable skill:
 
@@ -60,7 +60,7 @@ That is the entire skill. Cowork interprets the description and instructions nat
 - [ ] List every task you do more than three times in a month
 - [ ] For each, score against the "What to Skill" criteria above. Keep the ones that score high.
 - [ ] Pick ONE candidate to start. Resist the urge to build five at once.
-- [ ] Create a subfolder under `/Documents/Cowork/skills/<your-skill-name>/`
+- [ ] Create a subfolder under `OneDrive/Documents/Cowork/skills/<your-skill-name>/`
 - [ ] Create `SKILL.md` inside it with YAML frontmatter (`name:`, `description:`) and instructions in Markdown
 - [ ] Open a fresh Cowork chat. Cowork discovers custom skills at conversation start, not mid-conversation.
 - [ ] Trigger the skill: *"Run my weekly report skill"* (or similar based on the name)
@@ -71,13 +71,13 @@ That is the entire skill. Cowork interprets the description and instructions nat
 
 ## Path B Checklist: Import from GitHub
 
-- [ ] Install the importer once: copy [`skill-05-import-github-skill.md`](../Skills/skill-05-import-github-skill.md) into `/Documents/Cowork/skills/skill-05-import-github-skill/SKILL.md` (or any folder name; the file must be named `SKILL.md`)
+- [ ] Install the importer once: copy [`skill-05-import-github-skill.md`](../Skills/skill-05-import-github-skill.md) into `OneDrive/Documents/Cowork/skills/skill-05-import-github-skill/SKILL.md` (or any folder name; the file must be named `SKILL.md`)
 - [ ] Refresh Cowork. Type `/` in the prompt and verify the importer appears in the skill list.
 - [ ] Browse [obra/superpowers](https://github.com/obra/superpowers) or [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills). Pick a skill that maps to something you actually do.
 - [ ] In Cowork, paste the GitHub URL to the skill and say: *"Import this skill and adapt it for my role."*
 - [ ] Answer the reframe questions: domain, naming preference, OneDrive mirror, team-shareable vs. personal.
 - [ ] Review the draft Cowork generates. Adjust before saving.
-- [ ] Cowork stages the new `SKILL.md` in `/Documents/Cowork/sessions/`. Move (or copy) it into `/Documents/Cowork/skills/<the-skill-name>/SKILL.md`.
+- [ ] Cowork stages the new `SKILL.md` in `OneDrive/Documents/Cowork/sessions/`. Move (or copy) it into `OneDrive/Documents/Cowork/skills/<the-skill-name>/SKILL.md`.
 - [ ] Refresh Cowork. Type `/` and verify the new skill loaded.
 - [ ] Trigger one of its example phrases to confirm it works.
 - [ ] Repeat for the next skill from the library.

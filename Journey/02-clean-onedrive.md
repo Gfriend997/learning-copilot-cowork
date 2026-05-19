@@ -2,7 +2,7 @@
 
 **Prompt:** [`Prompts/OneDrive_Cleanup_Prompt.md`](../Prompts/OneDrive_Cleanup_Prompt.md)
 
-**Required reading first:** [The Cowork Folder in OneDrive](../Resources/cowork-folder-structure.md). Before touching OneDrive, understand the `/Documents/Cowork/` subtree (`copilot-instructions.md`, `skills/`, `sessions/`). The cleanup in this step applies to *everything else in OneDrive*. The Cowork subtree is managed and stays as-is.
+**Required reading first:** [The Cowork Folder in OneDrive](../Resources/cowork-folder-structure.md). Before touching OneDrive, understand the `OneDrive/Documents/Cowork/` subtree (`copilot-instructions.md`, `skills/`, `sessions/`). The cleanup in this step applies to *everything else in OneDrive*. The Cowork subtree is managed and stays as-is.
 
 ## Why This Order
 
@@ -82,7 +82,7 @@ Adapt the non-Cowork folders as needed. The shape that works is the one you will
 - A summary report documenting every cleanup decision
 - A proposed folder structure for your current role (use it as a starting template, adapt as needed)
 - A follow-up list of items the prompt could not classify (decide on these yourself when you have time)
-- A `/Documents/Cowork/skills/` folder ready for Step 3
+- A `OneDrive/Documents/Cowork/skills/` folder ready for Step 3
 - Cowork can now find relevant context quickly when you ask it anything
 
 When that is true, move to [Step 3: Build Your First Custom Skills](03-build-custom-skills.md).

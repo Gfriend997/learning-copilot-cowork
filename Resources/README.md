@@ -15,7 +15,7 @@ External references, research, and links that support the rest of the repo. The 
 
 ## In This Folder
 
-- [**The Cowork Folder in OneDrive**](cowork-folder-structure.md) - Canonical reference for the `/Documents/Cowork/` subtree: `copilot-instructions.md`, `skills/`, `sessions/`. Read this before Journey Step 2.
+- [**The Cowork Folder in OneDrive**](cowork-folder-structure.md) - Canonical reference for the `OneDrive/Documents/Cowork/` subtree: `copilot-instructions.md`, `skills/`, `sessions/`. Read this before Journey Step 2.
 - [**Cowork Limitations and Workarounds**](cowork-limitations.md) - What Cowork cannot do (edit files in place, delete, read encrypted files, etc.) and the workaround for each. The edit-in-place constraint shapes how you should think about Cowork.
 
 ## Skill Libraries (for inspiration)

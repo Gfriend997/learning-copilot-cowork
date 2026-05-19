@@ -4,13 +4,13 @@ What Cowork cannot do, and how to work around each constraint. Knowing these up 
 
 ## Cannot Edit Files In Place
 
-Cowork cannot write or edit a file at an arbitrary location in OneDrive or SharePoint. Every file Cowork creates or modifies lands in `/Documents/Cowork/sessions/`, not at the source location.
+Cowork cannot write or edit a file at an arbitrary location in OneDrive or SharePoint. Every file Cowork creates or modifies lands in `OneDrive/Documents/Cowork/sessions/`, not at the source location.
 
 **The edit workflow:**
 
 1. Upload the file you want to edit into the Cowork chat (drag and drop, or use the attachment button).
 2. Ask Cowork to make the changes.
-3. Cowork creates a new version of the file. The output appears in the side panel's **Output folder** during the chat, and is saved permanently to `/Documents/Cowork/sessions/`.
+3. Cowork creates a new version of the file. The output appears in the side panel's **Output folder** during the chat, and is saved permanently to `OneDrive/Documents/Cowork/sessions/`.
 4. To replace the original, you manually move or copy the edited version from `sessions/` to wherever the source lived.
 
 **Why this matters for your workflow:**

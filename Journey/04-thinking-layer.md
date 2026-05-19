@@ -29,8 +29,8 @@ The Compass Builder Prompt interviews you to extract these patterns and writes t
 - [ ] Upload [`Prompts/CoWorkCompass_Builder_Prompt_v3.md`](../Prompts/CoWorkCompass_Builder_Prompt_v3.md)
 - [ ] Ask Cowork to run the Compass Builder interview
 - [ ] Answer the questions; expect the interview to take 30 to 45 minutes for the full pass
-- [ ] Save the generated Compass files to `/Documents/Cowork/Compass/` (sibling to the `skills/` and `sessions/` folders described in [The Cowork Folder in OneDrive](../Resources/cowork-folder-structure.md))
-- [ ] Reference the Compass folder in `/Documents/Cowork/copilot-instructions.md` so Cowork loads it at the start of every conversation. Example line: *"When making decisions, consult my Compass folder at /Documents/Cowork/Compass/. Treat those files as authoritative for how I think."*
+- [ ] Save the generated Compass files to `OneDrive/Documents/Cowork/Compass/` (sibling to the `skills/` and `sessions/` folders described in [The Cowork Folder in OneDrive](../Resources/cowork-folder-structure.md))
+- [ ] Reference the Compass folder in `OneDrive/Documents/Cowork/copilot-instructions.md` so Cowork loads it at the start of every conversation. Example line: *"When making decisions, consult my Compass folder at OneDrive/Documents/Cowork/Compass/. Treat those files as authoritative for how I think."*
 - [ ] Also add the same reference to your Microsoft 365 Copilot Custom Instructions (from [Step 1](01-personalize-copilot.md)) for cases where Cowork is not the entry point
 - [ ] Test: ask Cowork a question that requires judgment, not just retrieval. Verify it pulls from the Compass and references specific principles.
 - [ ] Use Cowork normally for a week. Note any time it gives an answer that contradicts how you would think.
@@ -62,7 +62,7 @@ Use v3. The older versions are kept so you can see how the approach evolved. If 
 
 ## What You Have After This Step
 
-- A `/Documents/Cowork/Compass/` folder populated with your decision principles
+- A `OneDrive/Documents/Cowork/Compass/` folder populated with your decision principles
 - Custom Instructions in Copilot that reference the Compass folder
 - Cowork producing outputs that feel like *you would have written them*, not "generic professional"
 - A clear sense of which Compass files need refinement after one week of use
