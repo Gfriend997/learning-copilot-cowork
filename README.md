@@ -4,6 +4,18 @@ A public learning journal and practical blueprint for configuring Microsoft 365 
 
 This is not a feature overview or product review. It is a working notebook from someone configuring this system day-to-day, sharing the patterns that hold up and the ones that do not.
 
+## Why This Exists
+
+I started this repo because I could not find much information about how to actually set up and configure Copilot Cowork. The official docs cover features; they do not cover the workflow of going from "I have access" to "this is my daily driver." This is me figuring it out in public.
+
+Every prompt, skill, and reference doc here has been tested multiple times in real Cowork sessions and confirmed to work in my own setup. **Your results may differ.** Cowork's behavior depends on your role, your tenant, your Frontier program enrollment, and what you put in your own Compass. Treat what is here as starting points to adapt, not guaranteed scripts.
+
+If this saves you time:
+
+- **Star the repo** so others can find it
+- **Share with a teammate** who is also figuring out Cowork
+- **Fork it** and turn it into your own personal Cowork learning journey: keep what works, change what does not, document your version
+
 ## What Is Copilot Cowork
 
 Microsoft 365 Copilot Cowork is an agentic AI built into the M365 tenant. It does not just answer questions. It plans, executes, and delivers finished work: drafted emails, formatted documents, scheduled meetings, organized files. Built in collaboration with Anthropic using Claude's agentic model.
