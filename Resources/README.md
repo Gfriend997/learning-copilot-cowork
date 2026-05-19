@@ -20,7 +20,7 @@ External references, research, and links that support the rest of the repo. The 
 
 ## Skill Libraries (for inspiration)
 
-If you do not know what custom Cowork skill to build first, browse these public libraries of Claude Code skills. Combined with the [`skill-05-import-github-skill`](../_Skills/skill-05-import-github-skill.md) importer (in [`_Skills/`](../_Skills/)), you can convert any of these into a Cowork-installable skill, reframed for your role.
+If you do not know what custom Cowork skill to build first, browse these public libraries of Claude Code skills. Combined with the [`skill-05-import-github-skill`](../Skills/skill-05-import-github-skill.md) importer (in [`Skills/`](../Skills/)), you can convert any of these into a Cowork-installable skill, reframed for your role.
 
 - [obra/superpowers](https://github.com/obra/superpowers) - Large curated Claude Code skill library. 18.8k stars at time of writing. Strong coverage of engineering, research, and meta-workflows.
 - [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills) - "Awesome list" style index of Claude Code skills across domains. 12.4k stars at time of writing. Useful for discovering domain-specific skills.
@@ -35,4 +35,4 @@ These are Claude Code skills, not Cowork skills natively. The importer translate
 
 ## Note
 
-This is reference material, not execution guidance. For step-by-step instructions, see `_Playbooks/`. For decision rules, see `_Compass/`.
+This is reference material, not execution guidance. For step-by-step instructions, see `Playbooks/`. For decision rules, see `Compass/`.

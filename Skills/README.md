@@ -4,7 +4,7 @@ Installable Cowork skills. Each `SKILL.md` here is a working artifact you can dr
 
 Skills are different from prompts:
 
-- **Prompts** (in [`_Prompts/`](../_Prompts/)) are pasted into a fresh Cowork chat to run an interview or one-time workflow.
+- **Prompts** (in [`Prompts/`](../Prompts/)) are pasted into a fresh Cowork chat to run an interview or one-time workflow.
 - **Skills** (here) are installed in OneDrive once. Cowork discovers them at the start of every conversation and activates them when your message matches their trigger phrases.
 
 ## How to Install a Skill from This Folder
@@ -29,11 +29,11 @@ Imports a Claude Code skill from a public GitHub repository into your Cowork ski
 
 **What it does:** fetches the source SKILL.md or README, asks whether to reframe for your role, drafts a Cowork-format SKILL.md, validates it, and stages an uploadable copy in `/Documents/Cowork/sessions/` for you to drag into your skills folder.
 
-**Why it matters:** combined with the public Claude Code skill libraries (see [Skill Libraries](../_Resources/README.md#skill-libraries-for-inspiration) in `_Resources/`), this skill turns hundreds of battle-tested community skills into Cowork-installable artifacts. You stop reinventing the wheel.
+**Why it matters:** combined with the public Claude Code skill libraries (see [Skill Libraries](../Resources/README.md#skill-libraries-for-inspiration) in `Resources/`), this skill turns hundreds of battle-tested community skills into Cowork-installable artifacts. You stop reinventing the wheel.
 
 ## After Importing: The Sessions-to-Skills Hop
 
-When the importer (or any Cowork session) generates a new `SKILL.md`, the file lands in `/Documents/Cowork/sessions/`, not directly in `skills/`. This is the Cowork edit-in-place limitation in action (see [Cowork Limitations and Workarounds](../_Resources/cowork-limitations.md)).
+When the importer (or any Cowork session) generates a new `SKILL.md`, the file lands in `/Documents/Cowork/sessions/`, not directly in `skills/`. This is the Cowork edit-in-place limitation in action (see [Cowork Limitations and Workarounds](../Resources/cowork-limitations.md)).
 
 To make the new skill permanent:
 

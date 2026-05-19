@@ -1,6 +1,6 @@
 # Step 1: Personalize Copilot
 
-**Prompt:** [`_Prompts/Copilot_Personalization_Interview.md`](../_Prompts/Copilot_Personalization_Interview.md)
+**Prompt:** [`Prompts/Copilot_Personalization_Interview.md`](../Prompts/Copilot_Personalization_Interview.md)
 
 ## Why First
 

@@ -1,8 +1,8 @@
 # Step 2: Clean Your OneDrive
 
-**Prompt:** [`_Prompts/OneDrive_Cleanup_Prompt.md`](../_Prompts/OneDrive_Cleanup_Prompt.md)
+**Prompt:** [`Prompts/OneDrive_Cleanup_Prompt.md`](../Prompts/OneDrive_Cleanup_Prompt.md)
 
-**Required reading first:** [The Cowork Folder in OneDrive](../_Resources/cowork-folder-structure.md). Before touching OneDrive, understand the `/Documents/Cowork/` subtree (`copilot-instructions.md`, `skills/`, `sessions/`). The cleanup in this step applies to *everything else in OneDrive*. The Cowork subtree is managed and stays as-is.
+**Required reading first:** [The Cowork Folder in OneDrive](../Resources/cowork-folder-structure.md). Before touching OneDrive, understand the `/Documents/Cowork/` subtree (`copilot-instructions.md`, `skills/`, `sessions/`). The cleanup in this step applies to *everything else in OneDrive*. The Cowork subtree is managed and stays as-is.
 
 ## Why This Order
 
@@ -73,7 +73,7 @@ Adapt the non-Cowork folders as needed. The shape that works is the one you will
 - **Trying to clean during a busy hour.** The prompt is interactive. Block 30 to 60 minutes when you can answer questions without interruption.
 - **Choosing "entire OneDrive" when you only need one folder.** If you know the problem area, scope it. You can run the cleanup again later for other folders.
 - **Skipping the recap.** The final gate exists for a reason. Read the Decision Log before approving execution.
-- **Cowork cannot delete.** Even when you "remove" an empty folder via the prompt, sensitive items in OneDrive cannot be permanently deleted by Cowork. See [Cowork Limitations and Workarounds](../_Resources/cowork-limitations.md).
+- **Cowork cannot delete.** Even when you "remove" an empty folder via the prompt, sensitive items in OneDrive cannot be permanently deleted by Cowork. See [Cowork Limitations and Workarounds](../Resources/cowork-limitations.md).
 
 ## What You Have After This Step
 

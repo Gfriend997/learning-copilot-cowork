@@ -10,7 +10,7 @@ Drop these into your own setup to get started faster. Each template is designed 
 - Workflow templates (skill definitions, multi-step task patterns)
 - Folder structure templates for new projects
 
-For reusable Cowork interview prompts (Personalization Interview, Compass Builders), see `_Prompts/`.
+For reusable Cowork interview prompts (Personalization Interview, Compass Builders), see `Prompts/`.
 
 ## Coming Soon
 

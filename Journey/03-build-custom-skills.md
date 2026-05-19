@@ -3,7 +3,7 @@
 **Two paths:** build from scratch, OR import from GitHub.
 
 - **From scratch:** write a `SKILL.md` for a repeatable pattern you already have in your head. Use the checklist below.
-- **From GitHub (faster):** install the [`skill-05-import-github-skill`](../_Skills/skill-05-import-github-skill.md) importer once, then convert any Claude Code skill from public libraries like [obra/superpowers](https://github.com/obra/superpowers) (18.8k stars) or [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills) (12.4k stars). The importer reframes the source skill for your role automatically.
+- **From GitHub (faster):** install the [`skill-05-import-github-skill`](../Skills/skill-05-import-github-skill.md) importer once, then convert any Claude Code skill from public libraries like [obra/superpowers](https://github.com/obra/superpowers) (18.8k stars) or [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills) (12.4k stars). The importer reframes the source skill for your role automatically.
 
 If you do not yet have a clear list of repeatable patterns, start with the GitHub path. The libraries contain hundreds of battle-tested skills; pick what fits and let the importer adapt them.
 
@@ -39,7 +39,7 @@ Examples of bad first skills:
 
 ## SKILL.md Structure
 
-Each custom skill lives in its own subfolder at `/Documents/Cowork/skills/<your-skill-name>/`. The folder must contain a file named `SKILL.md` (all caps). YAML frontmatter is required. For the full Cowork folder layout (including `copilot-instructions.md` and `sessions/`), see [The Cowork Folder in OneDrive](../_Resources/cowork-folder-structure.md).
+Each custom skill lives in its own subfolder at `/Documents/Cowork/skills/<your-skill-name>/`. The folder must contain a file named `SKILL.md` (all caps). YAML frontmatter is required. For the full Cowork folder layout (including `copilot-instructions.md` and `sessions/`), see [The Cowork Folder in OneDrive](../Resources/cowork-folder-structure.md).
 
 Minimum viable skill:
 
@@ -71,7 +71,7 @@ That is the entire skill. Cowork interprets the description and instructions nat
 
 ## Path B Checklist: Import from GitHub
 
-- [ ] Install the importer once: copy [`skill-05-import-github-skill.md`](../_Skills/skill-05-import-github-skill.md) into `/Documents/Cowork/skills/skill-05-import-github-skill/SKILL.md` (or any folder name; the file must be named `SKILL.md`)
+- [ ] Install the importer once: copy [`skill-05-import-github-skill.md`](../Skills/skill-05-import-github-skill.md) into `/Documents/Cowork/skills/skill-05-import-github-skill/SKILL.md` (or any folder name; the file must be named `SKILL.md`)
 - [ ] Refresh Cowork. Type `/` in the prompt and verify the importer appears in the skill list.
 - [ ] Browse [obra/superpowers](https://github.com/obra/superpowers) or [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills). Pick a skill that maps to something you actually do.
 - [ ] In Cowork, paste the GitHub URL to the skill and say: *"Import this skill and adapt it for my role."*

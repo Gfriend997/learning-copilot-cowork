@@ -6,15 +6,15 @@ Each step is a separate page. Work top to bottom. Skipping ahead causes rework.
 
 **Before you start:** Read these two foundational references. They shape every step.
 
-- [The Cowork Folder in OneDrive](../_Resources/cowork-folder-structure.md) - the `/Documents/Cowork/` layout (`copilot-instructions.md`, `skills/`, `sessions/`)
-- [Cowork Limitations and Workarounds](../_Resources/cowork-limitations.md) - what Cowork cannot do (edit files in place, delete, etc.) and how to work around each
+- [The Cowork Folder in OneDrive](../Resources/cowork-folder-structure.md) - the `/Documents/Cowork/` layout (`copilot-instructions.md`, `skills/`, `sessions/`)
+- [Cowork Limitations and Workarounds](../Resources/cowork-limitations.md) - what Cowork cannot do (edit files in place, delete, etc.) and how to work around each
 
 ## The Steps
 
 1. [**Personalize Copilot**](01-personalize-copilot.md) - Set up Microsoft 365 Copilot Custom Instructions. Cowork inherits this. Foundation for everything else.
 2. [**Clean Your OneDrive**](02-clean-onedrive.md) - Cowork pulls signal from OneDrive. Clean input determines output quality. Use Cowork itself to do the cleanup.
 3. [**Build Your First Custom Skills**](03-build-custom-skills.md) - Anything you do more than three times a month is a SKILL.md candidate.
-4. [**Build the Thinking Layer**](04-thinking-layer.md) - The `_Compass/` files: how you think, not just what you do. The highest-leverage step, and the hardest to do well.
+4. [**Build the Thinking Layer**](04-thinking-layer.md) - The `Compass/` files: how you think, not just what you do. The highest-leverage step, and the hardest to do well.
 
 ## Why This Order
 
@@ -26,9 +26,9 @@ Build the foundation before adding the leverage layers. Otherwise the leverage c
 
 ## Prompts Used
 
-The journey references prompts in [`_Prompts/`](../_Prompts/):
+The journey references prompts in [`Prompts/`](../Prompts/):
 
-- Step 1: [`Copilot_Personalization_Interview.md`](../_Prompts/Copilot_Personalization_Interview.md)
-- Step 2: [`OneDrive_Cleanup_Prompt.md`](../_Prompts/OneDrive_Cleanup_Prompt.md)
-- Step 3: [`skill-05-import-github-skill.md`](../_Skills/skill-05-import-github-skill.md) (installable importer skill; use with [obra/superpowers](https://github.com/obra/superpowers) and [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills) for inspiration)
-- Step 4: [`CoWork_Compass_Builder_Prompt_v3.md`](../_Prompts/CoWork_Compass_Builder_Prompt_v3.md)
+- Step 1: [`Copilot_Personalization_Interview.md`](../Prompts/Copilot_Personalization_Interview.md)
+- Step 2: [`OneDrive_Cleanup_Prompt.md`](../Prompts/OneDrive_Cleanup_Prompt.md)
+- Step 3: [`skill-05-import-github-skill.md`](../Skills/skill-05-import-github-skill.md) (installable importer skill; use with [obra/superpowers](https://github.com/obra/superpowers) and [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills) for inspiration)
+- Step 4: [`CoWorkCompass_Builder_Prompt_v3.md`](../Prompts/CoWorkCompass_Builder_Prompt_v3.md)
