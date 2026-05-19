@@ -42,6 +42,47 @@ Two facts that change how you should think about Cowork.
 
 This is the agentic shift. Once you trust it, you stop sitting and waiting for AI to finish.
 
+## Three Layers, One Coworker
+
+The four-step journey is three behavior layers plus a foundation. Understanding how they combine is how you get from "useful tool" to "trusted teammate."
+
+**The Foundation: Clean OneDrive ([Step 2](Journey/02-clean-onedrive.md))**
+
+A clean OneDrive is not a layer of Cowork's behavior; it is the substrate everything else draws from. Mess in, mess out. This step is non-negotiable.
+
+**Voice Layer: Personalization ([Step 1](Journey/01-personalize-copilot.md))**
+
+HOW Cowork talks as you. Tone, length, formality, who you write to and how, what phrases to avoid, when to draft vs. send. Set via the Copilot Personalization Interview.
+
+**Action Layer: Custom Skills ([Step 3](Journey/03-build-custom-skills.md))**
+
+WHAT Cowork does for you. `SKILL.md` files capturing your repeatable workflows so you stop re-explaining them. Weekly reports, client onboarding, meeting prep, monthly board updates.
+
+**Judgment Layer: Compass ([Step 4](Journey/04-thinking-layer.md))**
+
+HOW Cowork thinks like you. The Compass folder in your OneDrive captures your tradeoff rules, escalation criteria, and decision principles. The patterns that let Cowork make small judgment calls without asking.
+
+### When the Layers Combine
+
+When all three layers are in place on top of a clean substrate, Cowork stops feeling like a chatbot that answers questions. It starts feeling like a coworker who:
+
+- Writes in your voice without you reviewing every word
+- Handles your recurring tasks without re-explanation
+- Decides the way you would when you are not available to ask
+- Asks you the questions YOU would ask if you were reviewing your own thinking
+- Tailors its suggestions to the tradeoffs you actually care about
+
+That last pair is where the system shifts from "tool" to "thinking partner." The Voice layer makes outputs sound like you. The Compass layer makes Cowork's questions and suggestions match how you interrogate a decision. When you face an ambiguous call, Cowork surfaces the same dimensions you would weigh, not generic ones. The interaction becomes a back-and-forth that sharpens your thinking, not a Q&A loop that just produces content.
+
+Skip a layer and the system feels off:
+
+- **No Voice** - every output sounds generic, like it could have come from anyone
+- **No Action** - you re-explain the same patterns every time you run them
+- **No Judgment** - Cowork's decisions feel competent but not yours
+- **No Foundation** - even good layers produce stale answers from a messy source
+
+The journey order is deliberate. Voice first because it is the fastest setup and pays off immediately. Substrate next because the later layers will draw from it. Action before Judgment because building skills before context is clean produces brittle skills. Judgment last because it captures revealed preferences you only notice after using Cowork on real work.
+
 ## What You Will Find Here
 
 **[`Journey/`](Journey/)** - The recommended four-step setup path, one page per step: personalize Copilot, clean OneDrive, build custom skills, build the thinking layer. Start here.
