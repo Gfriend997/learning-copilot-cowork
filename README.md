@@ -34,6 +34,8 @@ The configuration leverage point is the last one. **Custom skills plus how you s
 
 ## What You Will Find Here
 
+**[`JOURNEY.md`](JOURNEY.md)** - The recommended five-step setup path: personalize Copilot, clean OneDrive, reorganize email, build custom skills, build the thinking layer. Start here.
+
 **`_Compass/`** - The judgment layer. Decision principles, working style, product heuristics, and escalation rules. The pattern that turns a generic AI assistant into one that thinks like you do.
 
 **`_Templates/`** - Reusable document and workflow templates. Coming soon.
@@ -69,9 +71,10 @@ Audience: smart operators and founders configuring Cowork for real work. Technic
 
 ## Getting Started
 
-1. Start with the `_Compass/` folder to understand the judgment layer concept
-2. Read through the builder prompts to see how the system is bootstrapped
-3. Adapt the templates and playbooks to your own business context once they land
+1. Read [`JOURNEY.md`](JOURNEY.md) for the recommended five-step setup path
+2. Browse `_Resources/` to ground yourself in what Cowork is (Microsoft Learn + community write-ups)
+3. Open the `_Compass/` folder to see the judgment-layer concept in action
+4. Adapt the builder prompts, templates, and playbooks to your own business context
 
 ## Contributing
 
