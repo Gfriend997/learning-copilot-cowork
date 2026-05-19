@@ -46,7 +46,6 @@ Files protected by DRM, IRM, or Microsoft Purview encryption are invisible to Co
 | Companion files per skill | 20 files, 10 MB total |
 | Custom Instructions field (M365 Copilot) | 8,000 characters |
 | Attachment size per upload | 200 MB |
-| Scheduled prompts per user | 5 |
 | Chat input length | 250,000 characters |
 
 ## Custom Skills Are Not Validated

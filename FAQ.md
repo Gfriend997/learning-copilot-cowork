@@ -26,7 +26,7 @@ holidays and any day my calendar shows blocked PTO.
 
 **Limits and management:**
 
-- Max 5 scheduled prompts per user. See [Cowork Limitations and Workarounds](Resources/cowork-limitations.md) for the full limit table.
+- No published limit on the number of scheduled prompts per user as of this writing. If you find one in practice, open an issue.
 - Manage schedules from the **Scheduled** tab in the Tasks view, or the **Schedule** section of the side panel.
 - For each schedule you can edit, pause, resume, or delete.
 
