@@ -4,6 +4,34 @@ A public learning journal and practical blueprint for configuring Microsoft 365 
 
 This is not a feature overview or product review. It is a working notebook from someone configuring this system day-to-day, sharing the patterns that hold up and the ones that do not.
 
+## What Is Copilot Cowork
+
+Microsoft 365 Copilot Cowork is an agentic AI built into the M365 tenant. It does not just answer questions. It plans, executes, and delivers finished work: drafted emails, formatted documents, scheduled meetings, organized files. Built in collaboration with Anthropic using Claude's agentic model.
+
+The shift it represents:
+
+> "From talking about work to doing work."
+
+What it can do out of the box:
+
+- **Office artifacts**: create and edit Word, Excel, PowerPoint, PDFs
+- **Communication**: draft and send emails, post Teams messages, create newsletters
+- **Calendar**: schedule meetings, resolve conflicts, deliver daily briefings
+- **Research**: enterprise search and deep research synthesis
+- **Automation**: scheduled, recurring tasks
+- **Files**: browse and organize SharePoint and OneDrive
+- **Task views**: monitor progress in lists, kanban boards, or schedule views
+
+What makes it different from regular M365 Copilot:
+
+- **Runs inside your tenant** with your identity and permissions, not as an external suggestion engine
+- **Work IQ**: org-level context layer that pulls signal from your mailbox, Teams, files, and calendar
+- **Agentic autonomy**: takes multi-step actions, pauses at approval gates for sensitive operations
+- **OS-level reach**: operates across local files, Outlook, Teams, and OneDrive in a single workflow
+- **Custom skills**: user-defined workflows stored in OneDrive at `/Documents/Cowork/Skills/`, no code required
+
+The configuration leverage point is the last one. **Custom skills plus how you structure your Microsoft Graph determine the quality of every output.** This repo is about that leverage.
+
 ## What You Will Find Here
 
 **`_Compass/`** - The judgment layer. Decision principles, working style, product heuristics, and escalation rules. The pattern that turns a generic AI assistant into one that thinks like you do.
@@ -33,7 +61,11 @@ This is not a feature overview or product review. It is a working notebook from 
 
 ## Who This Is For
 
-Smart operators and founders who want to set up Copilot Cowork properly. You are technical enough to follow configuration steps but may not have deep M365 admin experience. Everything is written for someone doing this for the first time.
+You already have Microsoft 365 Copilot Cowork access through your organization (Agentic Wave 3 rollout). If you do not, talk to your IT department about getting provisioned. This is not a guide to obtaining access.
+
+This IS a guide to getting the most out of Cowork once you have it. The patterns here assume you can already create skills, run agents, and connect to your Microsoft Graph.
+
+Audience: smart operators and founders configuring Cowork for real work. Technical enough to follow configuration steps but may not have deep M365 admin experience. Written for someone doing this for the first time.
 
 ## Philosophy
 
@@ -48,6 +80,13 @@ Smart operators and founders who want to set up Copilot Cowork properly. You are
 1. Start with the `_Compass/` folder to understand the judgment layer concept
 2. Read through the builder prompts to see how the system is bootstrapped
 3. Adapt the templates and playbooks to your own business context once they land
+
+## References
+
+- [Copilot Cowork: A new way of getting work done](https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/09/copilot-cowork-a-new-way-of-getting-work-done/) (Microsoft 365 Blog, March 2026, original announcement)
+- [Copilot Cowork: From conversation to action across skills, integrations, and devices](https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/05/copilot-cowork-from-conversation-to-action-across-skills-integrations-and-devices/) (Microsoft 365 Blog, May 2026, expansion update)
+- [Copilot Cowork: A new way of getting work done in Microsoft 365](https://futurework.blog/2026/04/19/copilot-cowork-a-new-way-of-getting-work-done-in-microsoft-365/) (Future Work blog, April 2026, deep-dive)
+- [Claude Cowork vs Copilot Cowork](https://datasciencedojo.com/blog/claude-cowork-vs-copilot-cowork/) (Data Science Dojo, comparison with Anthropic's Cowork)
 
 ## Contributing
 
