@@ -54,17 +54,17 @@ Two facts that change how you should think about Cowork.
 
 This is the agentic shift. Once you trust it, you stop sitting and waiting for AI to finish.
 
-## Three Layers, One Coworker
+## Four Layers, One Coworker
 
-The four-step journey is three behavior layers plus a foundation. Listed below in journey order. Understanding how they combine is how you get from "useful tool" to "trusted teammate."
+The four-step journey assembles four layers into a working Cowork system. One layer is foundational (the substrate Cowork draws from); the other three shape its behavior (how it talks, what it does, how it thinks). Listed below in journey order. Build them in this sequence to compound the leverage.
 
 **Step 1, Voice Layer: Personalization ([page](Journey/01-personalize-copilot.md))**
 
 HOW Cowork talks as you. Tone, length, formality, who you write to and how, what phrases to avoid, when to draft vs. send. Set via the Copilot Personalization Interview. First because it is the fastest setup and pays off immediately.
 
-**Step 2, The Foundation: Clean OneDrive ([page](Journey/02-clean-onedrive.md))**
+**Step 2, Foundation Layer: Clean OneDrive ([page](Journey/02-clean-onedrive.md))**
 
-A clean OneDrive is not a layer of Cowork's behavior; it is the substrate everything else draws from. Mess in, mess out. The later layers will draw from this, so clean it before adding them.
+The substrate every other layer draws from. Mess in, mess out. Cowork pulls signal from your OneDrive when answering anything, so the later layers will produce stale output if this one is skipped.
 
 **Step 3, Action Layer: Custom Skills ([page](Journey/03-build-custom-skills.md))**
 
