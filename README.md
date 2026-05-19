@@ -101,6 +101,8 @@ Most-useful-first; the two "Coming Soon" folders sit at the end.
 
 **[`Journey/`](Journey/)** - The recommended four-step setup path, one page per step: personalize Copilot, clean OneDrive, build custom skills, build the thinking layer. Start here.
 
+**[`FAQ.md`](FAQ.md)** - Common questions answered as they come up (scheduling recurring prompts, etc.). Quick reads, not deep dives.
+
 **[`Resources/`](Resources/)** - External references and deep-dive docs: Microsoft Learn, announcement blogs, community write-ups, the Cowork folder layout, copilot-instructions guide, skills capacity and loading, full limitations table. Read these to ground yourself in how Cowork actually behaves.
 
 **[`Prompts/`](Prompts/)** - Reusable prompt files referenced by the journey: the Copilot Personalization Interview, the OneDrive Cleanup Prompt, and the Compass Builder. Paste these into a fresh Cowork chat to run.

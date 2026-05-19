@@ -30,3 +30,12 @@ What has shipped in this repo. Newest at the top. Dates are when the change was 
 
 ### Placeholders
 - `Templates/` and `Playbooks/` folders exist but are empty. See the Roadmap in README for what's coming.
+
+## 2026-05-19
+
+### Added
+- `FAQ.md` at repo root. First entry: how to schedule a recurring task in Cowork (tune prompt, append scheduling line, activate the draft).
+- All folder entries in README "What You Will Find Here" are now clickable links.
+
+### Fixed
+- "Three Layers, One Coworker" section renamed to "Four Layers, One Coworker" (the math was off; section lists four items, including the foundation).
