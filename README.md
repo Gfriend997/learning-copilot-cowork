@@ -46,8 +46,6 @@ This is the agentic shift. Once you trust it, you stop sitting and waiting for A
 
 **[`Journey/`](Journey/)** - The recommended four-step setup path, one page per step: personalize Copilot, clean OneDrive, build custom skills, build the thinking layer. Start here.
 
-**`Compass/`** - The judgment layer. Decision principles, working style, product heuristics, and escalation rules. The pattern that turns a generic AI assistant into one that thinks like you do.
-
 **`Templates/`** - Reusable document and workflow templates. Coming soon.
 
 **`Playbooks/`** - Structured guides for specific project types: Support Scaling, Venture Launch, Community Management, and more. Coming soon.
@@ -58,8 +56,6 @@ This is the agentic shift. Once you trust it, you stop sitting and waiting for A
 
 **`Skills/`** - Installable Cowork skills. Drop a `SKILL.md` into your `OneDrive/Documents/Cowork/skills/<name>/` folder, refresh Cowork, and the skill activates on its trigger phrases. Includes a GitHub-skill importer that converts Claude Code skills into Cowork skills.
 
-**`_OperatingSystem_Guide.docx`** - Original guide explaining the Operating System concept that evolved into `Compass/`.
-
 ## Key Concepts
 
 **The Operational Brain** - SharePoint and OneDrive are not just file storage. They are Cowork's knowledge layer. How you structure them determines the quality of everything Cowork produces.
@@ -68,7 +64,7 @@ This is the agentic shift. Once you trust it, you stop sitting and waiting for A
 
 **Work IQ** - Cowork's reasoning capability improves with better-structured source data, not more data. Quality over quantity, every time.
 
-**The Compass/ Folder** - Skills tell Cowork what to do. Projects tell Cowork what is happening. The `Compass/` folder tells Cowork who you are as a leader.
+**Your Compass** - Skills tell Cowork what to do. Projects tell Cowork what is happening. Your Compass (a folder of decision principles, working style, and escalation rules in your OneDrive) tells Cowork who you are as a leader. You build your own Compass in Journey Step 4 using the Compass Builder prompt. This repo does not ship a sample Compass; it is personal to each user.
 
 ## Cowork Conventions and Nuances
 
@@ -113,8 +109,7 @@ Audience: smart operators and founders configuring Cowork for real work. Technic
 1. Open [`Journey/`](Journey/) and read the index, then work through the four step pages in order
 2. Browse `Resources/` to ground yourself in what Cowork is (Microsoft Learn + community write-ups)
 3. Pull the relevant prompt from `Prompts/` when a journey step tells you to (Step 1 and Step 4 have prompts ready)
-4. Open the `Compass/` folder to see the judgment-layer concept in action
-5. Adapt the templates and playbooks to your own business context as they land
+4. Adapt the templates and playbooks to your own business context as they land
 
 ## Contributing
 

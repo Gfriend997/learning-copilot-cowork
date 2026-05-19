@@ -1,12 +1,14 @@
 # Step 4: Build the Thinking Layer
 
-**Prompt:** [`Prompts/CoWorkCompass_Builder_Prompt_v3.md`](../Prompts/CoWorkCompass_Builder_Prompt_v3.md)
+**Prompt:** [`Prompts/CoWork_Compass_Builder_Prompt_v3.md`](../Prompts/CoWork_Compass_Builder_Prompt_v3.md)
 
 ## Why Last
 
 Steps 1 through 3 cover what Cowork knows (Personalization, OneDrive) and what Cowork does (Custom Skills). Step 4 covers how Cowork thinks.
 
-The `Compass/` folder holds your decision heuristics, tradeoff rules, escalation criteria, and working style. This is the layer that turns a competent agent into a coworker who can argue with you and be right.
+Your Compass folder (created in your OneDrive at `OneDrive/Documents/Cowork/Compass/` or `OneDrive/Documents/Cowork/_Compass/` if you want it sorted to the top) holds your decision heuristics, tradeoff rules, escalation criteria, and working style. This is the layer that turns a competent agent into a coworker who can argue with you and be right.
+
+This repo does not ship a sample Compass. It is personal to each user. You build yours by running the Compass Builder prompt below.
 
 This is the highest-leverage step. It is also the hardest to do well. Plan for two passes: a quick first draft to get something working, then a refined second pass after you have used Cowork for a week of real work.
 
@@ -26,7 +28,7 @@ The Compass Builder Prompt interviews you to extract these patterns and writes t
 ## Checklist
 
 - [ ] Open a fresh Cowork chat (no prior context)
-- [ ] Upload [`Prompts/CoWorkCompass_Builder_Prompt_v3.md`](../Prompts/CoWorkCompass_Builder_Prompt_v3.md)
+- [ ] Upload [`Prompts/CoWork_Compass_Builder_Prompt_v3.md`](../Prompts/CoWork_Compass_Builder_Prompt_v3.md)
 - [ ] Ask Cowork to run the Compass Builder interview
 - [ ] Answer the questions; expect the interview to take 30 to 45 minutes for the full pass
 - [ ] Save the generated Compass files to `OneDrive/Documents/Cowork/Compass/` (sibling to the `skills/` and `sessions/` folders described in [The Cowork Folder in OneDrive](../Resources/cowork-folder-structure.md))
@@ -54,7 +56,7 @@ Most people discover during the second pass that their stated preferences and re
 
 The repo keeps three versions of the Compass Builder:
 
-- `CoWorkCompass_Builder_Prompt_v3.md` (current, recommended)
+- `CoWork_Compass_Builder_Prompt_v3.md` (current, recommended)
 - `CoWork_OS_Builder_Prompt_v2.md` (predecessor, when this was called "OS")
 - `Copilot_Cowork_Operating_System_Builder_Prompt.md` (first version, conceptual origin)
 

@@ -31,4 +31,4 @@ The journey references prompts in [`Prompts/`](../Prompts/):
 - Step 1: [`Copilot_Personalization_Interview.md`](../Prompts/Copilot_Personalization_Interview.md)
 - Step 2: [`OneDrive_Cleanup_Prompt.md`](../Prompts/OneDrive_Cleanup_Prompt.md)
 - Step 3: [`skill-05-import-github-skill.md`](../Skills/skill-05-import-github-skill.md) (installable importer skill; use with [obra/superpowers](https://github.com/obra/superpowers) and [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills) for inspiration)
-- Step 4: [`CoWorkCompass_Builder_Prompt_v3.md`](../Prompts/CoWorkCompass_Builder_Prompt_v3.md)
+- Step 4: [`CoWork_Compass_Builder_Prompt_v3.md`](../Prompts/CoWork_Compass_Builder_Prompt_v3.md)
