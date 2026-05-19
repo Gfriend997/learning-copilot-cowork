@@ -67,14 +67,6 @@ This IS a guide to getting the most out of Cowork once you have it. The patterns
 
 Audience: smart operators and founders configuring Cowork for real work. Technical enough to follow configuration steps but may not have deep M365 admin experience. Written for someone doing this for the first time.
 
-## Philosophy
-
-- AI should augment humans, not replace judgment
-- Execution over strategy: ship working systems, not slide decks
-- Be opinionated. Neutral guidance gets ignored
-- If it cannot be replicated by someone else, it is not a system
-- This is a learning journey, not a finished product. Patterns evolve as the system does
-
 ## Getting Started
 
 1. Start with the `_Compass/` folder to understand the judgment layer concept
