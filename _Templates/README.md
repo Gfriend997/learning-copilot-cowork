@@ -9,7 +9,8 @@ Drop these into your own setup to get started faster. Each template is designed 
 - Document templates (proposals, reports, guides)
 - Workflow templates (skill definitions, multi-step task patterns)
 - Folder structure templates for new projects
-- Prompt templates for recurring Cowork tasks
+
+For reusable Cowork interview prompts (Personalization Interview, Compass Builders), see `_Prompts/`.
 
 ## Coming Soon
 

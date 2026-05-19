@@ -44,10 +44,7 @@ The configuration leverage point is the last one. **Custom skills plus how you s
 
 **`_Resources/`** - External references and links: Microsoft Learn docs, Microsoft announcement blogs, community deep-dives. Start here if you are new to Cowork.
 
-**Builder Prompts** - The prompts I use to bootstrap Cowork. The version history is part of the learning journey:
-- `Copilot_Cowork_Operating_System_Builder_Prompt.md` (v1, original)
-- `CoWork_OS_Builder_Prompt_v2.md` (v2, refined)
-- `CoWork_Compass_Builder_Prompt_v3.md` (v3, current)
+**`_Prompts/`** - Reusable prompt files referenced by `JOURNEY.md`: the Copilot Personalization Interview, and the three versions of the Compass Builder. Upload these into a fresh Cowork chat to run the interviews.
 
 **`_OperatingSystem_Guide.docx`** - Original guide explaining the Operating System concept that evolved into `_Compass/`.
 
@@ -73,8 +70,9 @@ Audience: smart operators and founders configuring Cowork for real work. Technic
 
 1. Read [`JOURNEY.md`](JOURNEY.md) for the recommended five-step setup path
 2. Browse `_Resources/` to ground yourself in what Cowork is (Microsoft Learn + community write-ups)
-3. Open the `_Compass/` folder to see the judgment-layer concept in action
-4. Adapt the builder prompts, templates, and playbooks to your own business context
+3. Pull the relevant prompt from `_Prompts/` when JOURNEY tells you to (Step 1 and Step 5 have specific prompts ready)
+4. Open the `_Compass/` folder to see the judgment-layer concept in action
+5. Adapt the templates and playbooks to your own business context as they land
 
 ## Contributing
 
