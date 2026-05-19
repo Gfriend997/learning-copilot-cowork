@@ -1,0 +1,38 @@
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.bak
+~$*
+
+# Node (if any tooling gets added later)
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# Office lock files
+~$*.docx
+~$*.pptx
+~$*.xlsx
+
+# Private. AI working files
+CLAUDE.md
+**/CLAUDE.md
+.claude/
+**/.claude/
+
+# Internal planning artifacts (Claude Code specs, plans)
+docs/
