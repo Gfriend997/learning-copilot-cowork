@@ -56,6 +56,8 @@ Cowork saves output files from every chat conversation here. This folder is Cowo
 - If you want to keep an output file long-term, move a copy somewhere else in OneDrive (your `Projects/` folder, for example). Leave the original in `sessions/` alone.
 - Use this folder as evidence of what Cowork has done; do not treat it as your personal workspace.
 
+**Important constraint:** Cowork cannot write or edit a file at any other OneDrive or SharePoint location. Every output Cowork creates lands here in `sessions/`, including edits of files you uploaded. See [Cowork Limitations and Workarounds](cowork-limitations.md) for the edit workflow and other constraints to know.
+
 ## Practical Implications
 
 - **When cleaning OneDrive in [Journey Step 2](../_Journey/02-clean-onedrive.md):** leave the entire `Cowork/` subtree alone. The cleanup applies to the rest of OneDrive, not Cowork's managed area.
