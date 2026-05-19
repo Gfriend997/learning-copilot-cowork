@@ -11,6 +11,12 @@ Cowork inherits context from Microsoft 365 Copilot through Work IQ. If your Copi
 - [ ] Sign in to Copilot at [m365.cloud.microsoft](https://m365.cloud.microsoft)
 - [ ] Open Settings, go to **Personalizations**
 - [ ] Turn on **Save memory** so Copilot accumulates context about you over time
+
+> **Screenshot placeholder:** Personalizations settings screen showing the Save memory toggle and Custom Instructions field. Will add when I have a clean tenant capture.
+
+- [ ] Confirm your tenant is enrolled in the Frontier program (Admin Center, Copilot, Settings, Frontier)
+
+> **Screenshot placeholder:** Admin Center Frontier enrollment screen. Will add when I have a clean tenant capture.
 - [ ] Open a fresh Copilot Cowork chat
 - [ ] Upload `Copilot_Personalization_Interview.md` as an attachment, or paste its contents into the chat
 - [ ] Ask Cowork to execute the prompt

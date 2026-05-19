@@ -56,23 +56,23 @@ This is the agentic shift. Once you trust it, you stop sitting and waiting for A
 
 ## Three Layers, One Coworker
 
-The four-step journey is three behavior layers plus a foundation. Understanding how they combine is how you get from "useful tool" to "trusted teammate."
+The four-step journey is three behavior layers plus a foundation. Listed below in journey order. Understanding how they combine is how you get from "useful tool" to "trusted teammate."
 
-**The Foundation: Clean OneDrive ([Step 2](Journey/02-clean-onedrive.md))**
+**Step 1, Voice Layer: Personalization ([page](Journey/01-personalize-copilot.md))**
 
-A clean OneDrive is not a layer of Cowork's behavior; it is the substrate everything else draws from. Mess in, mess out. This step is non-negotiable.
+HOW Cowork talks as you. Tone, length, formality, who you write to and how, what phrases to avoid, when to draft vs. send. Set via the Copilot Personalization Interview. First because it is the fastest setup and pays off immediately.
 
-**Voice Layer: Personalization ([Step 1](Journey/01-personalize-copilot.md))**
+**Step 2, The Foundation: Clean OneDrive ([page](Journey/02-clean-onedrive.md))**
 
-HOW Cowork talks as you. Tone, length, formality, who you write to and how, what phrases to avoid, when to draft vs. send. Set via the Copilot Personalization Interview.
+A clean OneDrive is not a layer of Cowork's behavior; it is the substrate everything else draws from. Mess in, mess out. The later layers will draw from this, so clean it before adding them.
 
-**Action Layer: Custom Skills ([Step 3](Journey/03-build-custom-skills.md))**
+**Step 3, Action Layer: Custom Skills ([page](Journey/03-build-custom-skills.md))**
 
-WHAT Cowork does for you. `SKILL.md` files capturing your repeatable workflows so you stop re-explaining them. Weekly reports, client onboarding, meeting prep, monthly board updates.
+WHAT Cowork does for you. `SKILL.md` files capturing your repeatable workflows so you stop re-explaining them. Weekly reports, client onboarding, meeting prep, monthly board updates. After the substrate is clean so skills draw from real signal.
 
-**Judgment Layer: Compass ([Step 4](Journey/04-thinking-layer.md))**
+**Step 4, Judgment Layer: Compass ([page](Journey/04-thinking-layer.md))**
 
-HOW Cowork thinks like you. The Compass folder in your OneDrive captures your tradeoff rules, escalation criteria, and decision principles. The patterns that let Cowork make small judgment calls without asking.
+HOW Cowork thinks like you. The `_Compass/` folder in your OneDrive captures your tradeoff rules, escalation criteria, and decision principles. Last because it captures revealed preferences you only notice after using Cowork on real work.
 
 ### When the Layers Combine
 
@@ -97,17 +97,19 @@ The journey order is deliberate. Voice first because it is the fastest setup and
 
 ## What You Will Find Here
 
+Most-useful-first; the two "Coming Soon" folders sit at the end.
+
 **[`Journey/`](Journey/)** - The recommended four-step setup path, one page per step: personalize Copilot, clean OneDrive, build custom skills, build the thinking layer. Start here.
 
-**`Templates/`** - Reusable document and workflow templates. Coming soon.
-
-**`Playbooks/`** - Structured guides for specific project types: Support Scaling, Venture Launch, Community Management, and more. Coming soon.
-
-**`Resources/`** - External references and links: Microsoft Learn docs, Microsoft announcement blogs, community deep-dives. Start here if you are new to Cowork.
+**`Resources/`** - External references and deep-dive docs: Microsoft Learn, announcement blogs, community write-ups, the Cowork folder layout, copilot-instructions guide, skills capacity and loading, full limitations table. Read these to ground yourself in how Cowork actually behaves.
 
 **`Prompts/`** - Reusable prompt files referenced by the journey: the Copilot Personalization Interview, the OneDrive Cleanup Prompt, and the Compass Builder. Paste these into a fresh Cowork chat to run.
 
 **`Skills/`** - Installable Cowork skills. Drop a `SKILL.md` into your `OneDrive/Documents/Cowork/skills/<name>/` folder, refresh Cowork, and the skill activates on its trigger phrases. Includes a GitHub-skill importer that converts Claude Code skills into Cowork skills.
+
+**`Templates/`** - Reusable document and workflow templates. Placeholder; first templates land as patterns stabilize.
+
+**`Playbooks/`** - Structured guides for specific project types (Support Scaling, Venture Launch, Community Management). Placeholder; first playbook lands once the journey is battle-tested by a few readers.
 
 ## Key Concepts
 
@@ -121,7 +123,7 @@ The journey order is deliberate. Voice first because it is the fastest setup and
 
 ## Cowork Conventions and Nuances
 
-What we have learned about how Cowork actually behaves, beyond the official docs. Worth knowing before you start.
+What I have learned about how Cowork actually behaves, beyond the official docs. Worth knowing before you start.
 
 ### Folder Conventions
 
@@ -163,6 +165,18 @@ Audience: smart operators and founders configuring Cowork for real work. Technic
 2. Browse `Resources/` to ground yourself in what Cowork is (Microsoft Learn + community write-ups)
 3. Pull the relevant prompt from `Prompts/` when a journey step tells you to (Step 1 and Step 4 have prompts ready)
 4. Adapt the templates and playbooks to your own business context as they land
+
+## Roadmap
+
+This is what I plan to add as I keep using Cowork. No fixed timeline; the order reflects what I expect to need first.
+
+- **First `Playbooks/` entry**: a Support Scaling playbook (Cowork-driven inbox triage, response templates, escalation routing)
+- **First `Templates/` entry**: a SKILL.md starter template with the most common YAML frontmatter fields and the prompt structure that has worked best for me
+- **More installable skills** in `Skills/`: daily briefing, weekly review, meeting prep, deep research framing
+- **Screenshots** in Journey Step 1 and Step 3 (Frontier enrollment screen, skill verification slash command)
+- **A short troubleshooting guide** in `Resources/` for the most common Cowork failure modes I have hit
+
+See [CHANGELOG.md](CHANGELOG.md) for what has already shipped.
 
 ## Contributing
 

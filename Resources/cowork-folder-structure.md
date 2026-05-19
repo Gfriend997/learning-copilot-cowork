@@ -64,7 +64,7 @@ Cowork saves output files from every chat conversation here. This folder is Cowo
 
 - **When cleaning OneDrive in [Journey Step 2](../Journey/02-clean-onedrive.md):** leave the entire `Cowork/` subtree alone. The cleanup applies to the rest of OneDrive, not Cowork's managed area.
 - **When building skills in [Journey Step 3](../Journey/03-build-custom-skills.md):** create new subfolders inside `skills/`, never modify the parent layout.
-- **When building the thinking layer in [Journey Step 4](../Journey/04-thinking-layer.md):** decide whether your Compass files live inside `Cowork/` (as a sibling folder to `skills/`) or elsewhere in OneDrive. Either works; what matters is that `copilot-instructions.md` references the location explicitly.
+- **When building the thinking layer in [Journey Step 4](../Journey/04-thinking-layer.md):** create your Compass folder at `OneDrive/Documents/Cowork/_Compass/` (sibling to `skills/` and `sessions/`). The leading underscore is intentional; it keeps the folder sorted to the top of the Cowork file browser. Reference it explicitly from `copilot-instructions.md`.
 
 ## Cowork Cannot Delete Files
 

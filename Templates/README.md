@@ -12,6 +12,6 @@ Drop these into your own setup to get started faster. Each template is designed 
 
 For reusable Cowork interview prompts (Personalization Interview, Compass Builders), see `Prompts/`.
 
-## Coming Soon
+## Status
 
-This folder is being populated as patterns emerge from active projects.
+**Currently empty.** This is a placeholder folder. First template lands once I have a SKILL.md starter template that has produced reliable output across at least three different skills. Watch the [CHANGELOG](../CHANGELOG.md) for additions.

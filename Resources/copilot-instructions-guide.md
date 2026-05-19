@@ -38,7 +38,7 @@ Think of `copilot-instructions.md` as the layer between "what Cowork is" (core) 
 
 **Pointers to other layers:**
 - "Daily-task-list workflow lives in the daily-briefing skill; do not duplicate it here."
-- "Decision rules live in `OneDrive/Documents/Cowork/Compass/`."
+- "Decision rules live in `OneDrive/Documents/Cowork/_Compass/`."
 
 ## What NOT to Put In It
 

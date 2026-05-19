@@ -14,7 +14,7 @@ Each step is a separate page. Work top to bottom. Skipping ahead causes rework.
 1. [**Personalize Copilot**](01-personalize-copilot.md) - Set up Microsoft 365 Copilot Custom Instructions. Cowork inherits this. Foundation for everything else.
 2. [**Clean Your OneDrive**](02-clean-onedrive.md) - Cowork pulls signal from OneDrive. Clean input determines output quality. Use Cowork itself to do the cleanup.
 3. [**Build Your First Custom Skills**](03-build-custom-skills.md) - Anything you do more than three times a month is a SKILL.md candidate.
-4. [**Build the Thinking Layer**](04-thinking-layer.md) - The `Compass/` files: how you think, not just what you do. The highest-leverage step, and the hardest to do well.
+4. [**Build the Thinking Layer**](04-thinking-layer.md) - The `_Compass/` folder in your OneDrive: how you think, not just what you do. The highest-leverage step, and the hardest to do well.
 
 ## Why This Order
 

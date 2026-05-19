@@ -48,22 +48,23 @@ The OneDrive Cleanup Prompt is **safe by design** and runs in two halves:
 - [ ] If anything looks wrong, ask to revisit specific decision numbers. The prompt updates and re-displays the recap.
 - [ ] Give final approval to execute, or export the plan to a Word document for offline review first
 - [ ] Watch the execution progress updates. If any move fails, the prompt stops and asks how to proceed.
-- [ ] When done, request all three deliverables (summary, folder structure, follow-up list). They land in `/Documents/OneDrive-Cleanup-[YYYY-MM-DD]/`
+- [ ] When done, request all three deliverables (summary, folder structure, follow-up list). They land in `OneDrive/Documents/OneDrive-Cleanup-[YYYY-MM-DD]/`
 
 ## What Belongs Where
 
 A starting structure that works for most operators, based on the prompt's proposed folder structure output:
 
 ```
-/Documents/
-  Cowork/                      -- Cowork-managed (see Cowork folder reference)
-    copilot-instructions.md
-    skills/
-    sessions/
-    Compass/                   -- Thinking-layer files (Step 4), optional location
-  Projects/                    -- Active project work, one folder per project
-  Reference/                   -- Long-lived material: contracts, templates, research
-  Archive/                     -- Created by the cleanup prompt; past roles, duplicates, stale items
+OneDrive/
+└── Documents/
+    ├── Cowork/                      -- Cowork-managed (see Cowork folder reference)
+    │   ├── copilot-instructions.md
+    │   ├── skills/
+    │   ├── sessions/
+    │   └── _Compass/                -- Thinking-layer files (Step 4)
+    ├── Projects/                    -- Active project work, one folder per project
+    ├── Reference/                   -- Long-lived material: contracts, templates, research
+    └── Archive/                     -- Created by the cleanup prompt; past roles, duplicates, stale items
 ```
 
 Adapt the non-Cowork folders as needed. The shape that works is the one you will actually maintain.

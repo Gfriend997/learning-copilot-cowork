@@ -37,4 +37,4 @@ These are Claude Code skills, not Cowork skills natively. The importer translate
 
 ## Note
 
-This is reference material, not execution guidance. For step-by-step instructions, see `Playbooks/`. For the decision-rules concept (built in YOUR OneDrive Compass folder, not in this repo), see [Journey Step 4](../Journey/04-thinking-layer.md).
+This is reference material, not execution guidance. For step-by-step instructions, see the [Journey](../Journey/). For the decision-rules concept (built in YOUR OneDrive Compass folder, not in this repo), see [Journey Step 4](../Journey/04-thinking-layer.md). The `Playbooks/` folder will eventually hold project-type guides; it is empty for now.

@@ -69,12 +69,16 @@ The `description` field is the single most important part of a skill. It is what
 - [ ] Review the output. Note what is wrong, what is missing, what is verbose.
 - [ ] Tune the SKILL.md based on what you noticed. Re-run.
 - [ ] Once the skill produces reliable output three runs in a row, move to the next candidate
-- [ ] Repeat. Cap at 50 custom skills per user (Microsoft's hard limit).
+- [ ] Repeat. The documented cap is 50 custom skills per user, but in practice routing quality (whether Cowork picks the right skill) degrades earlier. See [Skills: Capacity and Loading](../Resources/skills-capacity-and-loading.md) for the nuance.
 
 ## Path B Checklist: Import from GitHub
 
 - [ ] Install the importer once: copy [`skill-05-import-github-skill.md`](../Skills/skill-05-import-github-skill.md) into `OneDrive/Documents/Cowork/skills/skill-05-import-github-skill/SKILL.md` (or any folder name; the file must be named `SKILL.md`)
 - [ ] Refresh Cowork. Type `/` in the prompt and verify the importer appears in the skill list.
+
+> **Screenshot placeholder:** Cowork prompt window showing the `/` skill suggestion list with a custom skill loaded. Will add when I have a clean capture.
+
+
 - [ ] Browse [obra/superpowers](https://github.com/obra/superpowers) or [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills). Pick a skill that maps to something you actually do.
 - [ ] In Cowork, paste the GitHub URL to the skill and say: *"Import this skill and adapt it for my role."*
 - [ ] Answer the reframe questions: domain, naming preference, OneDrive mirror, team-shareable vs. personal.
@@ -86,7 +90,7 @@ The `description` field is the single most important part of a skill. It is what
 
 ## Limits to Know
 
-- 50 custom skills total per user
+- 50 custom skills total per user (Microsoft's documented cap; in practice, description-quality limits hit earlier, see [Skills: Capacity and Loading](../Resources/skills-capacity-and-loading.md))
 - 1 MB per SKILL.md
 - Up to 20 companion files per skill (10 MB total per skill, useful for reference docs and scripts)
 - Skills are discovered at the start of each conversation, not loaded dynamically mid-conversation
