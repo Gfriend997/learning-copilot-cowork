@@ -13,6 +13,10 @@ External references, research, and links that support the rest of the repo. The 
 - [Copilot Cowork: A new way of getting work done in Microsoft 365](https://futurework.blog/2026/04/19/copilot-cowork-a-new-way-of-getting-work-done-in-microsoft-365/) - Future Work blog, April 2026. Strong "what does this actually mean for users" framing, with concrete examples.
 - [Claude Cowork vs Copilot Cowork](https://datasciencedojo.com/blog/claude-cowork-vs-copilot-cowork/) - Data Science Dojo. Useful for understanding what Cowork is by contrast with Anthropic's standalone Cowork.
 
+## In This Folder
+
+- [**The Cowork Folder in OneDrive**](cowork-folder-structure.md) - Canonical reference for the `/Documents/Cowork/` subtree: `copilot-instructions.md`, `skills/`, `sessions/`. Read this before Journey Step 2.
+
 ## Access Requirements
 
 - Microsoft 365 Copilot license

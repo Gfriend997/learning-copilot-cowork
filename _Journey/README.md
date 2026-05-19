@@ -4,6 +4,8 @@ Five steps to go from "I have access" to "Cowork is my second brain." This is th
 
 Each step is a separate page. Work top to bottom. Skipping ahead causes rework.
 
+**Before you start:** Read [The Cowork Folder in OneDrive](../_Resources/cowork-folder-structure.md). It explains the `/Documents/Cowork/` layout (`copilot-instructions.md`, `skills/`, `sessions/`) that several journey steps depend on.
+
 ## The Steps
 
 1. [**Personalize Copilot**](01-personalize-copilot.md) - Set up Microsoft 365 Copilot Custom Instructions. Cowork inherits this. Foundation for everything else.

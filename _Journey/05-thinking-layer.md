@@ -29,8 +29,9 @@ The Compass Builder Prompt interviews you to extract these patterns and writes t
 - [ ] Upload [`_Prompts/CoWork_Compass_Builder_Prompt_v3.md`](../_Prompts/CoWork_Compass_Builder_Prompt_v3.md)
 - [ ] Ask Cowork to run the Compass Builder interview
 - [ ] Answer the questions; expect the interview to take 30 to 45 minutes for the full pass
-- [ ] Save the generated Compass files to `/Documents/Cowork/Compass/` (or wherever the prompt directs)
-- [ ] In your Copilot Custom Instructions (from [Step 1](01-personalize-copilot.md)), add a reference: *"When making decisions, consult my Compass folder at /Documents/Cowork/Compass/. Treat those files as authoritative for how I think."*
+- [ ] Save the generated Compass files to `/Documents/Cowork/Compass/` (sibling to the `skills/` and `sessions/` folders described in [The Cowork Folder in OneDrive](../_Resources/cowork-folder-structure.md))
+- [ ] Reference the Compass folder in `/Documents/Cowork/copilot-instructions.md` so Cowork loads it at the start of every conversation. Example line: *"When making decisions, consult my Compass folder at /Documents/Cowork/Compass/. Treat those files as authoritative for how I think."*
+- [ ] Also add the same reference to your Microsoft 365 Copilot Custom Instructions (from [Step 1](01-personalize-copilot.md)) for cases where Cowork is not the entry point
 - [ ] Test: ask Cowork a question that requires judgment, not just retrieval. Verify it pulls from the Compass and references specific principles.
 - [ ] Use Cowork normally for a week. Note any time it gives an answer that contradicts how you would think.
 - [ ] Run the Compass Builder again as a refinement pass. Update or add the files that needed work.

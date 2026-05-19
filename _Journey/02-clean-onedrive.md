@@ -2,6 +2,8 @@
 
 **Prompt:** Coming soon. Interim manual checklist below.
 
+**Required reading first:** [The Cowork Folder in OneDrive](../_Resources/cowork-folder-structure.md). Before touching OneDrive, understand the `/Documents/Cowork/` subtree (`copilot-instructions.md`, `skills/`, `sessions/`). The cleanup in this step applies to *everything else in OneDrive*. The Cowork subtree is managed and stays as-is.
+
 ## Why This Order
 
 Cowork pulls signal from your OneDrive and SharePoint when answering anything: drafting documents, finding context, suggesting next actions. If your OneDrive is full of "New folder (3)", "Untitled.docx", and "Copy of Copy of Final_v2_real_FINAL", Cowork's outputs reflect that mess.
@@ -28,15 +30,17 @@ A starting structure that works for most operators:
 
 ```
 /Documents/
-  Cowork/
-    skills/                    -- Custom SKILL.md files (Step 4)
-    Compass/                   -- Thinking-layer files (Step 5, if you keep them in OneDrive)
+  Cowork/                      -- Cowork-managed (see Cowork folder reference)
+    copilot-instructions.md
+    skills/
+    sessions/
+    Compass/                   -- Thinking-layer files (Step 5), optional location
   Projects/                    -- Active project work, one folder per project
   Reference/                   -- Long-lived material: contracts, templates, research
   Archive/                     -- Done work you want to keep findable but out of the way
 ```
 
-Adapt as needed. The shape that works is the one you will actually maintain.
+Adapt the non-Cowork folders as needed. The shape that works is the one you will actually maintain.
 
 ## Common Pitfalls
 

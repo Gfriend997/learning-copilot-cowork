@@ -34,7 +34,7 @@ Examples of bad first skills:
 
 ## SKILL.md Structure
 
-Each custom skill lives in its own subfolder at `/Documents/Cowork/skills/<your-skill-name>/`. The folder must contain a file named `SKILL.md` (all caps). YAML frontmatter is required.
+Each custom skill lives in its own subfolder at `/Documents/Cowork/skills/<your-skill-name>/`. The folder must contain a file named `SKILL.md` (all caps). YAML frontmatter is required. For the full Cowork folder layout (including `copilot-instructions.md` and `sessions/`), see [The Cowork Folder in OneDrive](../_Resources/cowork-folder-structure.md).
 
 Minimum viable skill:
 
