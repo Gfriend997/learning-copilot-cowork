@@ -76,7 +76,8 @@ The `description` field is the single most important part of a skill. It is what
 - [ ] Install the importer once: copy [`skill-05-import-github-skill.md`](../Skills/skill-05-import-github-skill.md) into `OneDrive/Documents/Cowork/skills/skill-05-import-github-skill/SKILL.md` (or any folder name; the file must be named `SKILL.md`)
 - [ ] Refresh Cowork. Type `/` in the prompt and verify the importer appears in the skill list.
 
-> **Screenshot placeholder:** Cowork prompt window showing the `/` skill suggestion list with a custom skill loaded. Will add when I have a clean capture.
+> **Screenshot placeholder:** Cowork prompt window showing the `/` skill suggestion list with a custom skill loaded. Drop the file at `images/journey/step3-skill-loaded-slash.png` and replace this block with:
+> `![Cowork chat input showing slash-command suggestion list with a custom skill loaded](../images/journey/step3-skill-loaded-slash.png)`
 
 
 - [ ] Browse [obra/superpowers](https://github.com/obra/superpowers) or [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills). Pick a skill that maps to something you actually do.
