@@ -101,15 +101,15 @@ Most-useful-first; the two "Coming Soon" folders sit at the end.
 
 **[`Journey/`](Journey/)** - The recommended four-step setup path, one page per step: personalize Copilot, clean OneDrive, build custom skills, build the thinking layer. Start here.
 
-**`Resources/`** - External references and deep-dive docs: Microsoft Learn, announcement blogs, community write-ups, the Cowork folder layout, copilot-instructions guide, skills capacity and loading, full limitations table. Read these to ground yourself in how Cowork actually behaves.
+**[`Resources/`](Resources/)** - External references and deep-dive docs: Microsoft Learn, announcement blogs, community write-ups, the Cowork folder layout, copilot-instructions guide, skills capacity and loading, full limitations table. Read these to ground yourself in how Cowork actually behaves.
 
-**`Prompts/`** - Reusable prompt files referenced by the journey: the Copilot Personalization Interview, the OneDrive Cleanup Prompt, and the Compass Builder. Paste these into a fresh Cowork chat to run.
+**[`Prompts/`](Prompts/)** - Reusable prompt files referenced by the journey: the Copilot Personalization Interview, the OneDrive Cleanup Prompt, and the Compass Builder. Paste these into a fresh Cowork chat to run.
 
-**`Skills/`** - Installable Cowork skills. Drop a `SKILL.md` into your `OneDrive/Documents/Cowork/skills/<name>/` folder, refresh Cowork, and the skill activates on its trigger phrases. Includes a GitHub-skill importer that converts Claude Code skills into Cowork skills.
+**[`Skills/`](Skills/)** - Installable Cowork skills. Drop a `SKILL.md` into your `OneDrive/Documents/Cowork/skills/<name>/` folder, refresh Cowork, and the skill activates on its trigger phrases. Includes a GitHub-skill importer that converts Claude Code skills into Cowork skills.
 
-**`Templates/`** - Reusable document and workflow templates. Placeholder; first templates land as patterns stabilize.
+**[`Templates/`](Templates/)** - Reusable document and workflow templates. Placeholder; first templates land as patterns stabilize.
 
-**`Playbooks/`** - Structured guides for specific project types (Support Scaling, Venture Launch, Community Management). Placeholder; first playbook lands once the journey is battle-tested by a few readers.
+**[`Playbooks/`](Playbooks/)** - Structured guides for specific project types (Support Scaling, Venture Launch, Community Management). Placeholder; first playbook lands once the journey is battle-tested by a few readers.
 
 ## Key Concepts
 
