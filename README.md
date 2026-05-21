@@ -4,6 +4,10 @@ A public learning journal and practical blueprint for configuring Microsoft 365 
 
 This is not a feature overview or product review. It is a working notebook from someone configuring this system day-to-day, sharing the patterns that hold up and the ones that do not.
 
+## Video Walkthrough
+
+A short walkthrough of what is in this repo and how the pieces fit together: [The Cowork Blueprint](videos/the-cowork-blueprint.mp4) (community contribution).
+
 ## Why This Exists
 
 I started this repo because I could not find much information about how to actually set up and configure Copilot Cowork. The official docs cover features; they do not cover the workflow of going from "I have access" to "this is my daily driver." This is me figuring it out in public.
