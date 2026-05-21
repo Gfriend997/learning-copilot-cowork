@@ -2,6 +2,11 @@
 
 What has shipped in this repo. Newest at the top. Dates are when the change was committed, not when it was first written or tested.
 
+## 2026-05-21
+
+### Added
+- `videos/the-cowork-blueprint.mp4`: a community-contributed walkthrough of the repo and how the pieces fit together. Linked from the new "Video Walkthrough" section at the top of the README.
+
 ## 2026-05-18
 
 ### Added
