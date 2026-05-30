@@ -32,6 +32,8 @@ holidays and any day my calendar shows blocked PTO.
 
 **Common reason a scheduled prompt is not firing:** you forgot to activate it after creating it. The draft state is silent. Check the Scheduled tab and confirm the entry shows as active.
 
+**A worked example:** [`Prompts/OneDrive_Maintenance_Schedule_Prompt.md`](Prompts/OneDrive_Maintenance_Schedule_Prompt.md) is this whole pattern applied to OneDrive upkeep. It runs once with your approval, then keeps the drive tidy on a schedule using inline (remembers) memory mode. Good reference for how a real recurring task is structured.
+
 ---
 
 *More questions land here as they come up. If something you ran into is missing, open an issue.*

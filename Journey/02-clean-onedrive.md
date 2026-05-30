@@ -86,4 +86,28 @@ Adapt the non-Cowork folders as needed. The shape that works is the one you will
 - A `OneDrive/Documents/Cowork/skills/` folder ready for Step 3
 - Cowork can now find relevant context quickly when you ask it anything
 
+## Keep It Tidy: Schedule Ongoing Maintenance
+
+The deep clean is a one-time event. Your drive starts drifting again the moment you save the next loose file. And here is the part most people miss: a coherent structure is not just about tidiness. It measurably lifts Cowork's output quality. Cowork pulls context from your OneDrive every time it drafts, finds, or suggests. When the structure stays consistent, Cowork files related information together and reasons better. Let it drift and output quality drifts with it.
+
+The fix is to hand the upkeep back to Cowork on a schedule.
+
+**Prompt:** [`Prompts/OneDrive_Maintenance_Schedule_Prompt.md`](../Prompts/OneDrive_Maintenance_Schedule_Prompt.md)
+
+It runs in four phases. The first run is interactive: you approve a folder taxonomy, a naming convention, and your protected folders. After that, it runs unattended on your schedule, touches only files added or changed since the last run, and emails you a full list of every move.
+
+**How it differs from the deep clean above:**
+
+- **One-time cleanup** gates every move with multiple-choice. It sweeps the whole drive, including past roles, duplicates, and stale items.
+- **Maintenance schedule** gates only the first run, then runs on its own. It touches loose and newly-added files only, never re-filing what is already placed.
+
+Run the deep clean first to set the structure. Then run the maintenance prompt to keep it that way.
+
+**Two settings that matter when you schedule it:**
+
+- **Pick a quiet time.** A weekday evening run fires when you are not working in the files, so it never fights an open document.
+- **Use inline (remembers) memory mode, not fresh-each-run.** Inline mode reuses the taxonomy you approved on the first run and can tell what changed since the last run. A fresh-each-run task forgets the structure and re-interviews you every single time. See [FAQ: scheduling a recurring task](../FAQ.md) for how to create and activate the schedule.
+
+Start daily for the first two weeks so you can watch it work. Once the structure is stable and the daily emails mostly say "no changes", drop to weekly.
+
 When that is true, move to [Step 3: Build Your First Custom Skills](03-build-custom-skills.md).

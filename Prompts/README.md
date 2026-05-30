@@ -11,6 +11,7 @@ Reusable prompt files for bootstrapping and tuning Microsoft Copilot Cowork. Eac
 ### Cleanup
 
 - **`OneDrive_Cleanup_Prompt.md`** - Reorganizes your OneDrive around your current role. Safe by design (never deletes, archive-only). Plan-then-execute flow with a full Decision Log and recap. Lets you scope the sweep: entire OneDrive, one folder, or a specific set. Multiple-choice questions only. Used in [Journey Step 2](../Journey/02-clean-onedrive.md).
+- **`OneDrive_Maintenance_Schedule_Prompt.md`** - The maintenance layer that runs after the one-time cleanup. Organizes once with your approval, then keeps the drive tidy on a schedule: unattended runs touch only files added since the last run and email you a change log. Use inline (remembers) memory mode so it reuses your approved taxonomy. Also used in [Journey Step 2](../Journey/02-clean-onedrive.md).
 
 ### Compass Builder
 
